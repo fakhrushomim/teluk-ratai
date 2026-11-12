@@ -5,15 +5,29 @@
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <meta name="theme-color" content="#f8faf9">
   <title>Peta Interaktif Teluk Ratai</title>
-  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
-        integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="">
   <link rel="stylesheet" href="gaya.css?v=kontrol-layer">
-  <script defer src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
-          integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
-  <script defer src="katalog.js?v=layer-ringkas"></script>
-  <script defer src="peta.js?v=layer-ringkas-2"></script>
+  <style>
+    #akses { min-height: 100dvh; display: grid; place-items: center; padding: 1rem; }
+    #akses form { width: min(100%, 24rem); padding: 1.5rem; background: #fff; border: 1px solid var(--line); border-radius: .9rem; }
+    #akses label { display: block; margin: 1rem 0 .35rem; font-weight: 650; }
+    #akses input { display: block; width: 100%; padding: .65rem; font: inherit; border: 1px solid #b5c8bf; border-radius: .5rem; }
+    #akses button { margin-top: .85rem; padding: .65rem .9rem; background: #12634e; color: #fff; }
+    #akses-error { margin: .65rem 0 0; color: #9a302b; font-size: .88rem; }
+    #akses-error:empty { display: none; }
+  </style>
 </head>
 <body>
+  <section id="akses" aria-label="Akses peta">
+    <form id="form-akses">
+      <h1>Teluk Ratai</h1>
+      <label for="kode">Kode akses</label>
+      <input id="kode" type="password" required aria-describedby="akses-error">
+      <p id="akses-error" role="alert"></p>
+      <button type="submit">Buka peta</button>
+      <noscript>Aktifkan JavaScript untuk membuka peta.</noscript>
+    </form>
+  </section>
+  <template id="tampilan-peta">
   <header>
     <h1>Teluk Ratai</h1>
   </header>
@@ -48,5 +62,74 @@
       </div>
     </section>
   </main>
+  </template>
+  <script>
+    (() => {
+      const form = document.querySelector("#form-akses");
+      const input = document.querySelector("#kode");
+      const error = document.querySelector("#akses-error");
+      const button = form.querySelector("button");
+      const sessionKey = "teluk-ratai-akses-v1";
+
+      function loadScript(src, integrity) {
+        return new Promise((resolve, reject) => {
+          const script = document.createElement("script");
+          script.src = src;
+          if (integrity) {
+            script.integrity = integrity;
+            script.crossOrigin = "anonymous";
+          }
+          script.onload = resolve;
+          script.onerror = reject;
+          document.head.append(script);
+        });
+      }
+
+      async function openMap() {
+        document.querySelector("#akses").replaceWith(document.querySelector("#tampilan-peta").content.cloneNode(true));
+        const css = document.createElement("link");
+        css.rel = "stylesheet";
+        css.href = "https://unpkg.com/leaflet@1.9.4/dist/leaflet.css";
+        css.integrity = "sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=";
+        css.crossOrigin = "anonymous";
+        document.head.append(css);
+        try {
+          await loadScript("https://unpkg.com/leaflet@1.9.4/dist/leaflet.js", "sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=");
+          await loadScript("katalog.js?v=layer-ringkas");
+          await loadScript("peta.js?v=layer-ringkas-2");
+        } catch {
+          document.querySelector("#status").textContent = "Peta gagal dimuat. Muat ulang halaman untuk mencoba lagi.";
+        }
+      }
+
+      form.addEventListener("submit", async (event) => {
+        event.preventDefault();
+        button.disabled = true;
+        try {
+          const digest = await crypto.subtle.digest("SHA-256", new TextEncoder().encode(input.value));
+          const hex = Array.from(new Uint8Array(digest), byte => byte.toString(16).padStart(2, "0")).join("");
+          if (hex !== "e061cf296f0113efc2eb09656ee99fa8abd3873cb68b0e3459cf44c4a66d3f4b") {
+            error.textContent = "Kode akses salah.";
+            input.setAttribute("aria-invalid", "true");
+            input.select();
+            return;
+          }
+          try { sessionStorage.setItem(sessionKey, "1"); } catch { /* This page can still open. */ }
+          await openMap();
+        } catch {
+          error.textContent = "Kode akses tidak dapat diperiksa di browser ini.";
+        } finally {
+          button.disabled = false;
+        }
+      });
+      input.addEventListener("input", () => {
+        error.textContent = "";
+        input.removeAttribute("aria-invalid");
+      });
+      try {
+        if (sessionStorage.getItem(sessionKey) === "1") openMap();
+      } catch { /* Ask for the code if storage is unavailable. */ }
+    })();
+  </script>
 </body>
 </html>

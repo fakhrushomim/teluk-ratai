@@ -8168,6 +8168,150 @@ const katalogPeta = {
       ]
     },
     {
+      "id": "09e_sesar_kerak_dangkal_teluk_ratai_regional",
+      "induk": "09e_sesar_kerak_dangkal_teluk_ratai",
+      "judul": "Peta 09E · Konteks sesar Semangko Barat-B",
+      "catatan": "19,5 km dari tepi kotak kajian (A) ke segmen Semangko Barat-B (B). Sumber sesar: PusGeN 2024.",
+      "batas": [
+        [
+          -5.879111713525549,
+          104.82289160470012
+        ],
+        [
+          -5.480756676553029,
+          105.43719541425284
+        ]
+      ],
+      "crs_web": "EPSG:3857",
+      "ukuran_px": [
+        1800,
+        1173
+      ],
+      "layer": [
+        {
+          "nama": "Titik A kajian dan B sesar",
+          "jenis_sumber": "vektor",
+          "crs_asli": "EPSG:32748",
+          "aset": "layer-e2a6eddbc8fdf78366210563.png",
+          "legenda": [
+            {
+              "label": "Titik A kajian dan B sesar",
+              "warna": "#55349d"
+            }
+          ],
+          "batas": [
+            [
+              -5.807475820208571,
+              105.04950145444624
+            ],
+            [
+              -5.656365647229907,
+              105.1539331020702
+            ]
+          ],
+          "ukuran_px": [
+            306,
+            445
+          ]
+        },
+        {
+          "nama": "Jarak terdekat kotak kajian ke sesar",
+          "jenis_sumber": "vektor",
+          "crs_asli": "EPSG:32748",
+          "aset": "layer-202bb5e0e0d9df140e948f93.png",
+          "legenda": [
+            {
+              "label": "Jarak terdekat kotak kajian ke sesar",
+              "warna": "#55349d"
+            }
+          ],
+          "batas": [
+            [
+              -5.806457234447217,
+              105.05018401423462
+            ],
+            [
+              -5.659422202728205,
+              105.15052030312825
+            ]
+          ],
+          "ukuran_px": [
+            294,
+            433
+          ]
+        },
+        {
+          "nama": "Kotak kajian Teluk Ratai",
+          "jenis_sumber": "vektor",
+          "crs_asli": "EPSG:32748",
+          "aset": "layer-865d7f787fb6afea8407a9cd.png",
+          "legenda": [
+            {
+              "label": "Kotak kajian Teluk Ratai",
+              "warna": "#2c8cb0"
+            }
+          ],
+          "batas": [
+            [
+              -5.660441050970587,
+              105.14949646344564
+            ],
+            [
+              -5.529334608386535,
+              105.26075370895352
+            ]
+          ],
+          "ukuran_px": [
+            326,
+            386
+          ]
+        },
+        {
+          "nama": "Sesar Kerak Dangkal Regional",
+          "jenis_sumber": "vektor",
+          "crs_asli": "EPSG:4326",
+          "aset": "layer-27b29db9fe648c280b3d2120.png",
+          "legenda": [
+            {
+              "label": "Semangko Barat-B",
+              "warna": "#ed254e"
+            },
+            {
+              "label": "Segmen lain",
+              "warna": "#a88891"
+            }
+          ],
+          "batas": [
+            [
+              -5.879111713525549,
+              104.82289160470012
+            ],
+            [
+              -5.635308937636838,
+              105.15154414281082
+            ]
+          ],
+          "ukuran_px": [
+            963,
+            718
+          ]
+        },
+        {
+          "nama": "Natural Earth - konteks inset",
+          "jenis_sumber": "vektor",
+          "crs_asli": "EPSG:4326",
+          "aset": "layer-5885ec8a71d73c0e8733b0c6.png",
+          "legenda": [
+            {
+              "label": "Natural Earth - konteks inset",
+              "warna": "#d9e4d6"
+            }
+          ]
+        }
+      ],
+      "metadata_qgis": []
+    },
+    {
       "id": "09f_pga_mceg_teluk_ratai",
       "judul": "Peta 09F - PGA MCEG Teluk Ratai",
       "batas": [

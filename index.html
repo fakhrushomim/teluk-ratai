@@ -14,6 +14,9 @@
     #akses button { margin-top: .85rem; padding: .65rem .9rem; background: #12634e; color: #fff; }
     #akses-error { margin: .65rem 0 0; color: #9a302b; font-size: .88rem; }
     #akses-error:empty { display: none; }
+    .map-bar { flex-wrap: wrap; }
+    .map-actions { display: flex; flex-wrap: wrap; gap: .35rem; }
+    #konteks-sesar { border-color: #12634e; color: #12634e; }
   </style>
 </head>
 <body>
@@ -54,7 +57,10 @@
     <section class="viewer" aria-label="Penampil peta">
       <div class="map-bar">
         <h2 id="judul-peta"></h2>
-        <button type="button" id="cakupan" title="Sesuaikan zoom agar seluruh area peta terpilih terlihat">Lihat seluruh area</button>
+        <div class="map-actions">
+          <button type="button" id="konteks-sesar" hidden>Lihat konteks sesar</button>
+          <button type="button" id="cakupan" title="Sesuaikan zoom agar seluruh area peta terpilih terlihat">Lihat seluruh area</button>
+        </div>
       </div>
       <div class="map-frame">
         <div id="peta" role="region" aria-label="Peta Teluk Ratai"></div>
@@ -95,8 +101,8 @@
         document.head.append(css);
         try {
           await loadScript("https://unpkg.com/leaflet@1.9.4/dist/leaflet.js", "sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=");
-          await loadScript("katalog.js?v=layer-ringkas");
-          await loadScript("peta.js?v=layer-ringkas-2");
+          await loadScript("katalog.js?v=konteks-09e");
+          await loadScript("peta.js?v=konteks-09e");
         } catch {
           document.querySelector("#status").textContent = "Peta gagal dimuat. Muat ulang halaman untuk mencoba lagi.";
         }

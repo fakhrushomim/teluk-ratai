@@ -13,6 +13,7 @@ function tampilkanPeta() {
   const daftarLayer = document.querySelector("#layer");
   const metadata = document.querySelector("#metadata");
   const title = document.querySelector("#judul-peta");
+  const contextButton = document.querySelector("#konteks-sesar");
   const note = document.querySelector("#catatan");
   const count = document.querySelector("#jumlah");
   const map = L.map("peta", {zoomSnap: 0.25, maxZoom: 19});
@@ -20,9 +21,10 @@ function tampilkanPeta() {
   const overlay = L.layerGroup().addTo(map);
   let bounds;
   let aktif = [];
+  let currentView;
 
   for (const [i, peta] of katalogPeta.peta.entries()) {
-    pilihan.add(new Option(peta.judul, i));
+    if (!peta.induk) pilihan.add(new Option(peta.judul, i));
   }
 
   function lihatSeluruhArea() {
@@ -35,15 +37,18 @@ function tampilkanPeta() {
     count.setAttribute("aria-label", `${shown} dari ${aktif.length} layer aktif`);
   }
 
-  function pilihPeta() {
-    const peta = katalogPeta.peta[Number(pilihan.value)];
+  function tampilkanTampilan(peta) {
+    currentView = peta;
+    const parent = katalogPeta.peta[Number(pilihan.value)];
+    contextButton.hidden = !katalogPeta.peta.some(view => view.induk === parent.id);
+    contextButton.textContent = peta.induk ? "Kembali ke Teluk Ratai" : "Lihat konteks sesar";
     const previous = new Map(aktif.map(({key, image}) => [key, image]));
     daftarLayer.replaceChildren();
     mapStatus.textContent = "";
     bounds = L.latLngBounds(peta.batas);
     title.textContent = peta.judul;
-    const source = peta.metadata_qgis[0];
-    note.textContent = source.batasan || "";
+    const source = peta.metadata_qgis[0] || {};
+    note.textContent = peta.catatan || source.batasan || "";
     note.hidden = !note.textContent;
 
     aktif = peta.layer.map((layer, index) => {
@@ -105,6 +110,15 @@ function tampilkanPeta() {
     lihatSeluruhArea();
   }
 
+  function pilihPeta() {
+    tampilkanTampilan(katalogPeta.peta[Number(pilihan.value)]);
+  }
+
+  contextButton.addEventListener("click", () => {
+    const parent = katalogPeta.peta[Number(pilihan.value)];
+    const context = katalogPeta.peta.find(view => view.induk === parent.id);
+    if (context) tampilkanTampilan(currentView === context ? parent : context);
+  });
   pilihan.addEventListener("change", pilihPeta);
   document.querySelector("#sembunyikan").addEventListener("click", () => {
     for (const {input, image} of aktif) {

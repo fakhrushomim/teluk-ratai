@@ -23,43 +23,85 @@ const katalogPeta = {
           "nama": "Nama permukiman terpetakan",
           "jenis_sumber": "vektor",
           "crs_asli": "EPSG:4326",
-          "aset": "layer-72ba246dca205ba335e9553a.png",
+          "aset": "layer-7dd67468f8e6a61797abe9e8.png",
           "legenda": [
             {
               "label": "Nama permukiman terpetakan",
               "warna": "#7b503b"
             }
+          ],
+          "batas": [
+            [
+              -5.65487402172981,
+              105.15401256822516
+            ],
+            [
+              -5.531351495889338,
+              105.24796901782581
+            ]
+          ],
+          "ukuran_px": [
+            1240,
+            1638
           ]
         },
         {
           "nama": "Jembatan terpetakan",
           "jenis_sumber": "vektor",
           "crs_asli": "EPSG:4326",
-          "aset": "layer-2382d153a28404295f3dc221.png",
+          "aset": "layer-3c7022b983eea79b0cc3630a.png",
           "legenda": [
             {
               "label": "Jembatan terpetakan",
               "warna": "#e27361"
             }
+          ],
+          "batas": [
+            [
+              -5.658493334633523,
+              105.15764959208067
+            ],
+            [
+              -5.564610121655202,
+              105.24516547860387
+            ]
+          ],
+          "ukuran_px": [
+            1155,
+            1245
           ]
         },
         {
           "nama": "Bangunan terpetakan",
           "jenis_sumber": "vektor",
           "crs_asli": "EPSG:4326",
-          "aset": "layer-f4051c266bffed96b4fda2f7.png",
+          "aset": "layer-88f3f76bdf1f0bd74117a904.png",
           "legenda": [
             {
               "label": "Bangunan terpetakan",
               "warna": "#d17a5f"
             }
+          ],
+          "batas": [
+            [
+              -5.572905631357898,
+              105.22387373478307
+            ],
+            [
+              -5.53074814750979,
+              105.23789143089283
+            ]
+          ],
+          "ukuran_px": [
+            185,
+            559
           ]
         },
         {
           "nama": "Jalan terpetakan",
           "jenis_sumber": "vektor",
           "crs_asli": "EPSG:4326",
-          "aset": "layer-82c00cfc8867aa4857736bd0.png",
+          "aset": "layer-9c22813d848c4f3a7ba01413.webp",
           "legenda": [
             {
               "label": "Jalan terpetakan",
@@ -71,12 +113,26 @@ const katalogPeta = {
           "nama": "Sungai dan alur terpetakan",
           "jenis_sumber": "vektor",
           "crs_asli": "EPSG:4326",
-          "aset": "layer-6996b358c04082b46ed803eb.png",
+          "aset": "layer-3e2024d38cc49c32935517b6.png",
           "legenda": [
             {
               "label": "Sungai dan alur terpetakan",
               "warna": "#56c7ed"
             }
+          ],
+          "batas": [
+            [
+              -5.6025422666379905,
+              105.14992091638773
+            ],
+            [
+              -5.52991854248339,
+              105.22849578593276
+            ]
+          ],
+          "ukuran_px": [
+            1037,
+            963
           ]
         },
         {
@@ -95,7 +151,7 @@ const katalogPeta = {
           "nama": "Kontur DEMNAS 20 m",
           "jenis_sumber": "vektor",
           "crs_asli": "EPSG:4326",
-          "aset": "layer-36871f75782e405c91ea4517.png",
+          "aset": "layer-47d7d82cfce14487285a3c14.webp",
           "legenda": [
             {
               "label": "Kontur DEMNAS 20 m",
@@ -373,139 +429,293 @@ const katalogPeta = {
           "nama": "Jembatan dan akses",
           "jenis_sumber": "vektor",
           "crs_asli": "EPSG:32748",
-          "aset": "layer-2b50993852238f5c55900067.png",
+          "aset": "layer-84b1ae5f7bd59d28c709f442.png",
           "legenda": [
             {
               "label": "Jembatan dan akses",
               "warna": "#24234a"
             }
+          ],
+          "batas": [
+            [
+              -5.644996198437281,
+              105.17083380355689
+            ],
+            [
+              -5.608952028406734,
+              105.21614505909011
+            ]
+          ],
+          "ukuran_px": [
+            598,
+            478
           ]
         },
         {
           "nama": "Dermaga / struktur",
           "jenis_sumber": "vektor",
           "crs_asli": "EPSG:32748",
-          "aset": "layer-a40196f5f7c42a0ce8d01df8.png",
+          "aset": "layer-b283569732722ba6458726a4.png",
           "legenda": [
             {
               "label": "Dermaga / struktur",
               "warna": "#00e5ff"
             }
+          ],
+          "batas": [
+            [
+              -5.620640236165315,
+              105.18901892283444
+            ],
+            [
+              -5.576600866143808,
+              105.21652391574173
+            ]
+          ],
+          "ukuran_px": [
+            363,
+            584
           ]
         },
         {
           "nama": "Bangunan rencana",
           "jenis_sumber": "vektor",
           "crs_asli": "EPSG:32748",
-          "aset": "layer-481e837ee0440c9b5188407e.png",
+          "aset": "layer-59d490423d4da27e60f26daf.png",
           "legenda": [
             {
               "label": "Bangunan rencana",
               "warna": "#fff740"
             }
+          ],
+          "batas": [
+            [
+              -5.63692792778641,
+              105.1564372507955
+            ],
+            [
+              -5.565062607021489,
+              105.2377398882322
+            ]
+          ],
+          "ukuran_px": [
+            1073,
+            953
           ]
         },
         {
           "nama": "Jalan / koridor",
           "jenis_sumber": "vektor",
           "crs_asli": "EPSG:32748",
-          "aset": "layer-a26398aa919f8e8762cb5846.png",
+          "aset": "layer-b32fd18b268b123f94ba2872.webp",
           "legenda": [
             {
               "label": "Jalan / koridor",
               "warna": "#24234a"
             }
+          ],
+          "batas": [
+            [
+              -5.657890117388956,
+              105.1498451450574
+            ],
+            [
+              -5.559783589424353,
+              105.24251348204254
+            ]
+          ],
+          "ukuran_px": [
+            1223,
+            1301
           ]
         },
         {
           "nama": "Batas indikatif",
           "jenis_sumber": "vektor",
           "crs_asli": "EPSG:32748",
-          "aset": "layer-b63ef08fbc9dd143f6379ba9.png",
+          "aset": "layer-75308b47261fe86a375b6daa.png",
           "legenda": [
             {
               "label": "Batas indikatif",
               "warna": "#0000ff"
             }
+          ],
+          "batas": [
+            [
+              -5.618679649939698,
+              105.15014823037869
+            ],
+            [
+              -5.561367299676907,
+              105.22501030473792
+            ]
+          ],
+          "ukuran_px": [
+            988,
+            760
           ]
         },
         {
           "nama": "Cakupan Kalagian",
           "jenis_sumber": "vektor",
           "crs_asli": "EPSG:32748",
-          "aset": "layer-8e4c26b8a3a3993fa481f690.png",
+          "aset": "layer-f758ac355eea92e334cf6735.png",
           "legenda": [
             {
               "label": "Cakupan Kalagian",
               "warna": "#0000ff"
             }
+          ],
+          "batas": [
+            [
+              -5.641678418484525,
+              105.21159877927072
+            ],
+            [
+              -5.617397724608051,
+              105.24251348204254
+            ]
+          ],
+          "ukuran_px": [
+            408,
+            322
           ]
         },
         {
           "nama": "Blok / perkerasan",
           "jenis_sumber": "vektor",
           "crs_asli": "EPSG:32748",
-          "aset": "layer-55a63e5ec7792831edd69ff9.png",
+          "aset": "layer-2b278ddefe29fa59e9c195f2.png",
           "legenda": [
             {
               "label": "Blok / perkerasan",
               "warna": "#0000ff"
             }
+          ],
+          "batas": [
+            [
+              -5.637983595746788,
+              105.1571191927684
+            ],
+            [
+              -5.564610121655202,
+              105.2400887994722
+            ]
+          ],
+          "ukuran_px": [
+            1095,
+            973
           ]
         },
         {
           "nama": "Jejak batimetri",
           "jenis_sumber": "vektor",
           "crs_asli": "EPSG:32748",
-          "aset": "layer-70c0832cfa8d8fd96f494e8f.png",
+          "aset": "layer-c4d89a656b40e1d3ed6dc8bc.png",
           "legenda": [
             {
               "label": "Jejak batimetri",
               "warna": "#24234a"
             }
+          ],
+          "batas": [
+            [
+              -5.6108372390578864,
+              105.16992454759303
+            ],
+            [
+              -5.579164892933805,
+              105.21910014097271
+            ]
+          ],
+          "ukuran_px": [
+            649,
+            420
           ]
         },
         {
           "nama": "Nama permukiman terpetakan",
           "jenis_sumber": "vektor",
           "crs_asli": "EPSG:4326",
-          "aset": "layer-72ba246dca205ba335e9553a.png",
+          "aset": "layer-7dd67468f8e6a61797abe9e8.png",
           "legenda": [
             {
               "label": "Nama permukiman terpetakan",
               "warna": "#7b503b"
             }
+          ],
+          "batas": [
+            [
+              -5.65487402172981,
+              105.15401256822516
+            ],
+            [
+              -5.531351495889338,
+              105.24796901782581
+            ]
+          ],
+          "ukuran_px": [
+            1240,
+            1638
           ]
         },
         {
           "nama": "Jembatan terpetakan",
           "jenis_sumber": "vektor",
           "crs_asli": "EPSG:4326",
-          "aset": "layer-2382d153a28404295f3dc221.png",
+          "aset": "layer-3c7022b983eea79b0cc3630a.png",
           "legenda": [
             {
               "label": "Jembatan terpetakan",
               "warna": "#e27361"
             }
+          ],
+          "batas": [
+            [
+              -5.658493334633523,
+              105.15764959208067
+            ],
+            [
+              -5.564610121655202,
+              105.24516547860387
+            ]
+          ],
+          "ukuran_px": [
+            1155,
+            1245
           ]
         },
         {
           "nama": "Bangunan terpetakan",
           "jenis_sumber": "vektor",
           "crs_asli": "EPSG:4326",
-          "aset": "layer-f4051c266bffed96b4fda2f7.png",
+          "aset": "layer-88f3f76bdf1f0bd74117a904.png",
           "legenda": [
             {
               "label": "Bangunan terpetakan",
               "warna": "#d17a5f"
             }
+          ],
+          "batas": [
+            [
+              -5.572905631357898,
+              105.22387373478307
+            ],
+            [
+              -5.53074814750979,
+              105.23789143089283
+            ]
+          ],
+          "ukuran_px": [
+            185,
+            559
           ]
         },
         {
           "nama": "Jalan terpetakan",
           "jenis_sumber": "vektor",
           "crs_asli": "EPSG:4326",
-          "aset": "layer-82c00cfc8867aa4857736bd0.png",
+          "aset": "layer-9c22813d848c4f3a7ba01413.webp",
           "legenda": [
             {
               "label": "Jalan terpetakan",
@@ -517,12 +727,26 @@ const katalogPeta = {
           "nama": "Sungai dan alur terpetakan",
           "jenis_sumber": "vektor",
           "crs_asli": "EPSG:4326",
-          "aset": "layer-6996b358c04082b46ed803eb.png",
+          "aset": "layer-3e2024d38cc49c32935517b6.png",
           "legenda": [
             {
               "label": "Sungai dan alur terpetakan",
               "warna": "#56c7ed"
             }
+          ],
+          "batas": [
+            [
+              -5.6025422666379905,
+              105.14992091638773
+            ],
+            [
+              -5.52991854248339,
+              105.22849578593276
+            ]
+          ],
+          "ukuran_px": [
+            1037,
+            963
           ]
         },
         {
@@ -541,7 +765,7 @@ const katalogPeta = {
           "nama": "Kontur DEMNAS 20 m",
           "jenis_sumber": "vektor",
           "crs_asli": "EPSG:4326",
-          "aset": "layer-36871f75782e405c91ea4517.png",
+          "aset": "layer-47d7d82cfce14487285a3c14.webp",
           "legenda": [
             {
               "label": "Kontur DEMNAS 20 m",
@@ -902,20 +1126,48 @@ const katalogPeta = {
           "nama": "Jejak garis merah - daratan dan Piabung",
           "jenis_sumber": "vektor",
           "crs_asli": "EPSG:32748",
-          "aset": "layer-f1c2fa8ac8e62058d71f2386.png",
+          "aset": "layer-8df8bc2bfac3593e6b2df647.png",
           "legenda": [
             {
               "label": "Jejak garis merah - daratan dan Piabung",
               "warna": "#0000ff"
             }
+          ],
+          "batas": [
+            [
+              -5.618679649939698,
+              105.15014823037869
+            ],
+            [
+              -5.561291884999619,
+              105.22501030473792
+            ]
+          ],
+          "ukuran_px": [
+            988,
+            761
           ]
         },
         {
           "nama": "Masterplan di atas citra - slide 3",
           "jenis_sumber": "raster",
           "crs_asli": "EPSG:32748",
-          "aset": "layer-ec07a35550bc87923d657eb6.webp",
-          "legenda": []
+          "aset": "layer-d28247a0dd117715e0b1986e.webp",
+          "legenda": [],
+          "batas": [
+            [
+              -5.658267128240547,
+              105.14992091638773
+            ],
+            [
+              -5.559632759654233,
+              105.24986330108389
+            ]
+          ],
+          "ukuran_px": [
+            1319,
+            1308
+          ]
         },
         {
           "nama": "Sentinel-2 RGB 2021",
@@ -1001,96 +1253,208 @@ const katalogPeta = {
           "nama": "Jembatan Kalagian dan akses dermaga",
           "jenis_sumber": "vektor",
           "crs_asli": "EPSG:32748",
-          "aset": "layer-1dac4413c3f71a97ca59c2a5.png",
+          "aset": "layer-6ef327ec953e1f33c0886ef3.png",
           "legenda": [
             {
               "label": "Jembatan Kalagian dan akses dermaga",
               "warna": "#f59dd1"
             }
+          ],
+          "batas": [
+            [
+              -5.644920794558292,
+              105.17090957488722
+            ],
+            [
+              -5.608952028406734,
+              105.2160692877598
+            ]
+          ],
+          "ukuran_px": [
+            596,
+            477
           ]
         },
         {
           "nama": "Dermaga dan struktur perairan",
           "jenis_sumber": "vektor",
           "crs_asli": "EPSG:32748",
-          "aset": "layer-14cf0a091b878d164a5820dc.png",
+          "aset": "layer-72b0043fc38c96cb79facab4.png",
           "legenda": [
             {
               "label": "Dermaga dan struktur perairan",
               "warna": "#dfa7ea"
             }
+          ],
+          "batas": [
+            [
+              -5.620640236165315,
+              105.18901892283444
+            ],
+            [
+              -5.576600866143808,
+              105.21652391574173
+            ]
+          ],
+          "ukuran_px": [
+            363,
+            584
           ]
         },
         {
           "nama": "Footprint simbol bangunan",
           "jenis_sumber": "vektor",
           "crs_asli": "EPSG:32748",
-          "aset": "layer-8d899515de9f2e7d19358e1b.png",
+          "aset": "layer-5e8906150932e5def2a9594f.png",
           "legenda": [
             {
               "label": "Footprint simbol bangunan",
               "warna": "#ffdb80"
             }
+          ],
+          "batas": [
+            [
+              -5.63692792778641,
+              105.1564372507955
+            ],
+            [
+              -5.565062607021489,
+              105.2377398882322
+            ]
+          ],
+          "ukuran_px": [
+            1073,
+            953
           ]
         },
         {
           "nama": "Jejak jalan dan koridor",
           "jenis_sumber": "vektor",
           "crs_asli": "EPSG:32748",
-          "aset": "layer-ce3018596155a084bc73c760.png",
+          "aset": "layer-b51574d04ae5bb9142fc3054.png",
           "legenda": [
             {
               "label": "Jejak jalan dan koridor",
               "warna": "#ffb55b"
             }
+          ],
+          "batas": [
+            [
+              -5.657814715189146,
+              105.14992091638773
+            ],
+            [
+              -5.559783589424353,
+              105.24251348204254
+            ]
+          ],
+          "ukuran_px": [
+            1222,
+            1300
           ]
         },
         {
           "nama": "Jejak garis merah - daratan dan Piabung",
           "jenis_sumber": "vektor",
           "crs_asli": "EPSG:32748",
-          "aset": "layer-f1c2fa8ac8e62058d71f2386.png",
+          "aset": "layer-8df8bc2bfac3593e6b2df647.png",
           "legenda": [
             {
               "label": "Jejak garis merah - daratan dan Piabung",
               "warna": "#0000ff"
             }
+          ],
+          "batas": [
+            [
+              -5.618679649939698,
+              105.15014823037869
+            ],
+            [
+              -5.561291884999619,
+              105.22501030473792
+            ]
+          ],
+          "ukuran_px": [
+            988,
+            761
           ]
         },
         {
           "nama": "Cakupan gambar Kalagian",
           "jenis_sumber": "vektor",
           "crs_asli": "EPSG:32748",
-          "aset": "layer-895835db7276841f0ddbc79a.png",
+          "aset": "layer-69479f51208bcef07f91f640.png",
           "legenda": [
             {
               "label": "Cakupan gambar Kalagian",
               "warna": "#0000ff"
             }
+          ],
+          "batas": [
+            [
+              -5.641753822785168,
+              105.21159877927072
+            ],
+            [
+              -5.617397724608051,
+              105.24251348204254
+            ]
+          ],
+          "ukuran_px": [
+            408,
+            323
           ]
         },
         {
           "nama": "Blok fasilitas dan perkerasan",
           "jenis_sumber": "vektor",
           "crs_asli": "EPSG:32748",
-          "aset": "layer-57a45e5ac5ab383e1df9c88b.png",
+          "aset": "layer-6837159e7fa9caee7c61ae0c.png",
           "legenda": [
             {
               "label": "Blok fasilitas dan perkerasan",
               "warna": "#0000ff"
             }
+          ],
+          "batas": [
+            [
+              -5.637983595746788,
+              105.1571191927684
+            ],
+            [
+              -5.564610121655202,
+              105.2400887994722
+            ]
+          ],
+          "ukuran_px": [
+            1095,
+            973
           ]
         },
         {
           "nama": "Jejak kontur batimetri",
           "jenis_sumber": "vektor",
           "crs_asli": "EPSG:32748",
-          "aset": "layer-ddf2ae987cc1ac094c8806e2.png",
+          "aset": "layer-8cf14f4f077394b2c508179d.png",
           "legenda": [
             {
               "label": "Jejak kontur batimetri",
               "warna": "#9bdaf5"
             }
+          ],
+          "batas": [
+            [
+              -5.61076183074883,
+              105.17000031892336
+            ],
+            [
+              -5.579164892933805,
+              105.21902436964238
+            ]
+          ],
+          "ukuran_px": [
+            647,
+            419
           ]
         },
         {
@@ -1229,96 +1593,208 @@ const katalogPeta = {
           "nama": "Jembatan Kalagian dan akses dermaga",
           "jenis_sumber": "vektor",
           "crs_asli": "EPSG:32748",
-          "aset": "layer-1dac4413c3f71a97ca59c2a5.png",
+          "aset": "layer-6ef327ec953e1f33c0886ef3.png",
           "legenda": [
             {
               "label": "Jembatan Kalagian dan akses dermaga",
               "warna": "#f59dd1"
             }
+          ],
+          "batas": [
+            [
+              -5.644920794558292,
+              105.17090957488722
+            ],
+            [
+              -5.608952028406734,
+              105.2160692877598
+            ]
+          ],
+          "ukuran_px": [
+            596,
+            477
           ]
         },
         {
           "nama": "Dermaga dan struktur perairan",
           "jenis_sumber": "vektor",
           "crs_asli": "EPSG:32748",
-          "aset": "layer-14cf0a091b878d164a5820dc.png",
+          "aset": "layer-72b0043fc38c96cb79facab4.png",
           "legenda": [
             {
               "label": "Dermaga dan struktur perairan",
               "warna": "#dfa7ea"
             }
+          ],
+          "batas": [
+            [
+              -5.620640236165315,
+              105.18901892283444
+            ],
+            [
+              -5.576600866143808,
+              105.21652391574173
+            ]
+          ],
+          "ukuran_px": [
+            363,
+            584
           ]
         },
         {
           "nama": "Footprint simbol bangunan",
           "jenis_sumber": "vektor",
           "crs_asli": "EPSG:32748",
-          "aset": "layer-8d899515de9f2e7d19358e1b.png",
+          "aset": "layer-5e8906150932e5def2a9594f.png",
           "legenda": [
             {
               "label": "Footprint simbol bangunan",
               "warna": "#ffdb80"
             }
+          ],
+          "batas": [
+            [
+              -5.63692792778641,
+              105.1564372507955
+            ],
+            [
+              -5.565062607021489,
+              105.2377398882322
+            ]
+          ],
+          "ukuran_px": [
+            1073,
+            953
           ]
         },
         {
           "nama": "Jejak jalan dan koridor",
           "jenis_sumber": "vektor",
           "crs_asli": "EPSG:32748",
-          "aset": "layer-ce3018596155a084bc73c760.png",
+          "aset": "layer-b51574d04ae5bb9142fc3054.png",
           "legenda": [
             {
               "label": "Jejak jalan dan koridor",
               "warna": "#ffb55b"
             }
+          ],
+          "batas": [
+            [
+              -5.657814715189146,
+              105.14992091638773
+            ],
+            [
+              -5.559783589424353,
+              105.24251348204254
+            ]
+          ],
+          "ukuran_px": [
+            1222,
+            1300
           ]
         },
         {
           "nama": "Jejak garis merah - daratan dan Piabung",
           "jenis_sumber": "vektor",
           "crs_asli": "EPSG:32748",
-          "aset": "layer-f1c2fa8ac8e62058d71f2386.png",
+          "aset": "layer-8df8bc2bfac3593e6b2df647.png",
           "legenda": [
             {
               "label": "Jejak garis merah - daratan dan Piabung",
               "warna": "#0000ff"
             }
+          ],
+          "batas": [
+            [
+              -5.618679649939698,
+              105.15014823037869
+            ],
+            [
+              -5.561291884999619,
+              105.22501030473792
+            ]
+          ],
+          "ukuran_px": [
+            988,
+            761
           ]
         },
         {
           "nama": "Cakupan gambar Kalagian",
           "jenis_sumber": "vektor",
           "crs_asli": "EPSG:32748",
-          "aset": "layer-895835db7276841f0ddbc79a.png",
+          "aset": "layer-69479f51208bcef07f91f640.png",
           "legenda": [
             {
               "label": "Cakupan gambar Kalagian",
               "warna": "#0000ff"
             }
+          ],
+          "batas": [
+            [
+              -5.641753822785168,
+              105.21159877927072
+            ],
+            [
+              -5.617397724608051,
+              105.24251348204254
+            ]
+          ],
+          "ukuran_px": [
+            408,
+            323
           ]
         },
         {
           "nama": "Blok fasilitas dan perkerasan",
           "jenis_sumber": "vektor",
           "crs_asli": "EPSG:32748",
-          "aset": "layer-57a45e5ac5ab383e1df9c88b.png",
+          "aset": "layer-6837159e7fa9caee7c61ae0c.png",
           "legenda": [
             {
               "label": "Blok fasilitas dan perkerasan",
               "warna": "#0000ff"
             }
+          ],
+          "batas": [
+            [
+              -5.637983595746788,
+              105.1571191927684
+            ],
+            [
+              -5.564610121655202,
+              105.2400887994722
+            ]
+          ],
+          "ukuran_px": [
+            1095,
+            973
           ]
         },
         {
           "nama": "Jejak kontur batimetri",
           "jenis_sumber": "vektor",
           "crs_asli": "EPSG:32748",
-          "aset": "layer-ddf2ae987cc1ac094c8806e2.png",
+          "aset": "layer-8cf14f4f077394b2c508179d.png",
           "legenda": [
             {
               "label": "Jejak kontur batimetri",
               "warna": "#9bdaf5"
             }
+          ],
+          "batas": [
+            [
+              -5.61076183074883,
+              105.17000031892336
+            ],
+            [
+              -5.579164892933805,
+              105.21902436964238
+            ]
+          ],
+          "ukuran_px": [
+            647,
+            419
           ]
         },
         {
@@ -1337,7 +1813,7 @@ const katalogPeta = {
           "nama": "Kontur 10 m · indeks 20 m",
           "jenis_sumber": "vektor",
           "crs_asli": "EPSG:4326",
-          "aset": "layer-233218317ba85b83991c82da.png",
+          "aset": "layer-3ca363a8c27b7f406e822a7d.webp",
           "legenda": [
             {
               "label": "Kontur antara 10 m",
@@ -1488,96 +1964,208 @@ const katalogPeta = {
           "nama": "Jembatan Kalagian dan akses dermaga",
           "jenis_sumber": "vektor",
           "crs_asli": "EPSG:32748",
-          "aset": "layer-1dac4413c3f71a97ca59c2a5.png",
+          "aset": "layer-6ef327ec953e1f33c0886ef3.png",
           "legenda": [
             {
               "label": "Jembatan Kalagian dan akses dermaga",
               "warna": "#f59dd1"
             }
+          ],
+          "batas": [
+            [
+              -5.644920794558292,
+              105.17090957488722
+            ],
+            [
+              -5.608952028406734,
+              105.2160692877598
+            ]
+          ],
+          "ukuran_px": [
+            596,
+            477
           ]
         },
         {
           "nama": "Dermaga dan struktur perairan",
           "jenis_sumber": "vektor",
           "crs_asli": "EPSG:32748",
-          "aset": "layer-14cf0a091b878d164a5820dc.png",
+          "aset": "layer-72b0043fc38c96cb79facab4.png",
           "legenda": [
             {
               "label": "Dermaga dan struktur perairan",
               "warna": "#dfa7ea"
             }
+          ],
+          "batas": [
+            [
+              -5.620640236165315,
+              105.18901892283444
+            ],
+            [
+              -5.576600866143808,
+              105.21652391574173
+            ]
+          ],
+          "ukuran_px": [
+            363,
+            584
           ]
         },
         {
           "nama": "Footprint simbol bangunan",
           "jenis_sumber": "vektor",
           "crs_asli": "EPSG:32748",
-          "aset": "layer-8d899515de9f2e7d19358e1b.png",
+          "aset": "layer-5e8906150932e5def2a9594f.png",
           "legenda": [
             {
               "label": "Footprint simbol bangunan",
               "warna": "#ffdb80"
             }
+          ],
+          "batas": [
+            [
+              -5.63692792778641,
+              105.1564372507955
+            ],
+            [
+              -5.565062607021489,
+              105.2377398882322
+            ]
+          ],
+          "ukuran_px": [
+            1073,
+            953
           ]
         },
         {
           "nama": "Jejak jalan dan koridor",
           "jenis_sumber": "vektor",
           "crs_asli": "EPSG:32748",
-          "aset": "layer-ce3018596155a084bc73c760.png",
+          "aset": "layer-b51574d04ae5bb9142fc3054.png",
           "legenda": [
             {
               "label": "Jejak jalan dan koridor",
               "warna": "#ffb55b"
             }
+          ],
+          "batas": [
+            [
+              -5.657814715189146,
+              105.14992091638773
+            ],
+            [
+              -5.559783589424353,
+              105.24251348204254
+            ]
+          ],
+          "ukuran_px": [
+            1222,
+            1300
           ]
         },
         {
           "nama": "Jejak garis merah - daratan dan Piabung",
           "jenis_sumber": "vektor",
           "crs_asli": "EPSG:32748",
-          "aset": "layer-f1c2fa8ac8e62058d71f2386.png",
+          "aset": "layer-8df8bc2bfac3593e6b2df647.png",
           "legenda": [
             {
               "label": "Jejak garis merah - daratan dan Piabung",
               "warna": "#0000ff"
             }
+          ],
+          "batas": [
+            [
+              -5.618679649939698,
+              105.15014823037869
+            ],
+            [
+              -5.561291884999619,
+              105.22501030473792
+            ]
+          ],
+          "ukuran_px": [
+            988,
+            761
           ]
         },
         {
           "nama": "Cakupan gambar Kalagian",
           "jenis_sumber": "vektor",
           "crs_asli": "EPSG:32748",
-          "aset": "layer-895835db7276841f0ddbc79a.png",
+          "aset": "layer-69479f51208bcef07f91f640.png",
           "legenda": [
             {
               "label": "Cakupan gambar Kalagian",
               "warna": "#0000ff"
             }
+          ],
+          "batas": [
+            [
+              -5.641753822785168,
+              105.21159877927072
+            ],
+            [
+              -5.617397724608051,
+              105.24251348204254
+            ]
+          ],
+          "ukuran_px": [
+            408,
+            323
           ]
         },
         {
           "nama": "Blok fasilitas dan perkerasan",
           "jenis_sumber": "vektor",
           "crs_asli": "EPSG:32748",
-          "aset": "layer-57a45e5ac5ab383e1df9c88b.png",
+          "aset": "layer-6837159e7fa9caee7c61ae0c.png",
           "legenda": [
             {
               "label": "Blok fasilitas dan perkerasan",
               "warna": "#0000ff"
             }
+          ],
+          "batas": [
+            [
+              -5.637983595746788,
+              105.1571191927684
+            ],
+            [
+              -5.564610121655202,
+              105.2400887994722
+            ]
+          ],
+          "ukuran_px": [
+            1095,
+            973
           ]
         },
         {
           "nama": "Jejak kontur batimetri",
           "jenis_sumber": "vektor",
           "crs_asli": "EPSG:32748",
-          "aset": "layer-ddf2ae987cc1ac094c8806e2.png",
+          "aset": "layer-8cf14f4f077394b2c508179d.png",
           "legenda": [
             {
               "label": "Jejak kontur batimetri",
               "warna": "#9bdaf5"
             }
+          ],
+          "batas": [
+            [
+              -5.61076183074883,
+              105.17000031892336
+            ],
+            [
+              -5.579164892933805,
+              105.21902436964238
+            ]
+          ],
+          "ukuran_px": [
+            647,
+            419
           ]
         },
         {
@@ -1596,7 +2184,7 @@ const katalogPeta = {
           "nama": "Kelas kemiringan lereng",
           "jenis_sumber": "vektor",
           "crs_asli": "EPSG:32748",
-          "aset": "layer-a51c1b93f05f7ecc15b50490.png",
+          "aset": "layer-a11d222ad72c885fb214f8f9.webp",
           "legenda": [
             {
               "label": "0–<8%",
@@ -1788,96 +2376,208 @@ const katalogPeta = {
           "nama": "Jembatan Kalagian dan akses dermaga",
           "jenis_sumber": "vektor",
           "crs_asli": "EPSG:32748",
-          "aset": "layer-1dac4413c3f71a97ca59c2a5.png",
+          "aset": "layer-6ef327ec953e1f33c0886ef3.png",
           "legenda": [
             {
               "label": "Jembatan Kalagian dan akses dermaga",
               "warna": "#f59dd1"
             }
+          ],
+          "batas": [
+            [
+              -5.644920794558292,
+              105.17090957488722
+            ],
+            [
+              -5.608952028406734,
+              105.2160692877598
+            ]
+          ],
+          "ukuran_px": [
+            596,
+            477
           ]
         },
         {
           "nama": "Dermaga dan struktur perairan",
           "jenis_sumber": "vektor",
           "crs_asli": "EPSG:32748",
-          "aset": "layer-14cf0a091b878d164a5820dc.png",
+          "aset": "layer-72b0043fc38c96cb79facab4.png",
           "legenda": [
             {
               "label": "Dermaga dan struktur perairan",
               "warna": "#dfa7ea"
             }
+          ],
+          "batas": [
+            [
+              -5.620640236165315,
+              105.18901892283444
+            ],
+            [
+              -5.576600866143808,
+              105.21652391574173
+            ]
+          ],
+          "ukuran_px": [
+            363,
+            584
           ]
         },
         {
           "nama": "Footprint simbol bangunan",
           "jenis_sumber": "vektor",
           "crs_asli": "EPSG:32748",
-          "aset": "layer-8d899515de9f2e7d19358e1b.png",
+          "aset": "layer-5e8906150932e5def2a9594f.png",
           "legenda": [
             {
               "label": "Footprint simbol bangunan",
               "warna": "#ffdb80"
             }
+          ],
+          "batas": [
+            [
+              -5.63692792778641,
+              105.1564372507955
+            ],
+            [
+              -5.565062607021489,
+              105.2377398882322
+            ]
+          ],
+          "ukuran_px": [
+            1073,
+            953
           ]
         },
         {
           "nama": "Jejak jalan dan koridor",
           "jenis_sumber": "vektor",
           "crs_asli": "EPSG:32748",
-          "aset": "layer-ce3018596155a084bc73c760.png",
+          "aset": "layer-b51574d04ae5bb9142fc3054.png",
           "legenda": [
             {
               "label": "Jejak jalan dan koridor",
               "warna": "#ffb55b"
             }
+          ],
+          "batas": [
+            [
+              -5.657814715189146,
+              105.14992091638773
+            ],
+            [
+              -5.559783589424353,
+              105.24251348204254
+            ]
+          ],
+          "ukuran_px": [
+            1222,
+            1300
           ]
         },
         {
           "nama": "Jejak garis merah - daratan dan Piabung",
           "jenis_sumber": "vektor",
           "crs_asli": "EPSG:32748",
-          "aset": "layer-f1c2fa8ac8e62058d71f2386.png",
+          "aset": "layer-8df8bc2bfac3593e6b2df647.png",
           "legenda": [
             {
               "label": "Jejak garis merah - daratan dan Piabung",
               "warna": "#0000ff"
             }
+          ],
+          "batas": [
+            [
+              -5.618679649939698,
+              105.15014823037869
+            ],
+            [
+              -5.561291884999619,
+              105.22501030473792
+            ]
+          ],
+          "ukuran_px": [
+            988,
+            761
           ]
         },
         {
           "nama": "Cakupan gambar Kalagian",
           "jenis_sumber": "vektor",
           "crs_asli": "EPSG:32748",
-          "aset": "layer-895835db7276841f0ddbc79a.png",
+          "aset": "layer-69479f51208bcef07f91f640.png",
           "legenda": [
             {
               "label": "Cakupan gambar Kalagian",
               "warna": "#0000ff"
             }
+          ],
+          "batas": [
+            [
+              -5.641753822785168,
+              105.21159877927072
+            ],
+            [
+              -5.617397724608051,
+              105.24251348204254
+            ]
+          ],
+          "ukuran_px": [
+            408,
+            323
           ]
         },
         {
           "nama": "Blok fasilitas dan perkerasan",
           "jenis_sumber": "vektor",
           "crs_asli": "EPSG:32748",
-          "aset": "layer-57a45e5ac5ab383e1df9c88b.png",
+          "aset": "layer-6837159e7fa9caee7c61ae0c.png",
           "legenda": [
             {
               "label": "Blok fasilitas dan perkerasan",
               "warna": "#0000ff"
             }
+          ],
+          "batas": [
+            [
+              -5.637983595746788,
+              105.1571191927684
+            ],
+            [
+              -5.564610121655202,
+              105.2400887994722
+            ]
+          ],
+          "ukuran_px": [
+            1095,
+            973
           ]
         },
         {
           "nama": "Jejak kontur batimetri",
           "jenis_sumber": "vektor",
           "crs_asli": "EPSG:32748",
-          "aset": "layer-ddf2ae987cc1ac094c8806e2.png",
+          "aset": "layer-8cf14f4f077394b2c508179d.png",
           "legenda": [
             {
               "label": "Jejak kontur batimetri",
               "warna": "#9bdaf5"
             }
+          ],
+          "batas": [
+            [
+              -5.61076183074883,
+              105.17000031892336
+            ],
+            [
+              -5.579164892933805,
+              105.21902436964238
+            ]
+          ],
+          "ukuran_px": [
+            647,
+            419
           ]
         },
         {
@@ -2120,96 +2820,208 @@ const katalogPeta = {
           "nama": "Jembatan Kalagian dan akses dermaga",
           "jenis_sumber": "vektor",
           "crs_asli": "EPSG:32748",
-          "aset": "layer-1dac4413c3f71a97ca59c2a5.png",
+          "aset": "layer-6ef327ec953e1f33c0886ef3.png",
           "legenda": [
             {
               "label": "Jembatan Kalagian dan akses dermaga",
               "warna": "#f59dd1"
             }
+          ],
+          "batas": [
+            [
+              -5.644920794558292,
+              105.17090957488722
+            ],
+            [
+              -5.608952028406734,
+              105.2160692877598
+            ]
+          ],
+          "ukuran_px": [
+            596,
+            477
           ]
         },
         {
           "nama": "Dermaga dan struktur perairan",
           "jenis_sumber": "vektor",
           "crs_asli": "EPSG:32748",
-          "aset": "layer-14cf0a091b878d164a5820dc.png",
+          "aset": "layer-72b0043fc38c96cb79facab4.png",
           "legenda": [
             {
               "label": "Dermaga dan struktur perairan",
               "warna": "#dfa7ea"
             }
+          ],
+          "batas": [
+            [
+              -5.620640236165315,
+              105.18901892283444
+            ],
+            [
+              -5.576600866143808,
+              105.21652391574173
+            ]
+          ],
+          "ukuran_px": [
+            363,
+            584
           ]
         },
         {
           "nama": "Footprint simbol bangunan",
           "jenis_sumber": "vektor",
           "crs_asli": "EPSG:32748",
-          "aset": "layer-8d899515de9f2e7d19358e1b.png",
+          "aset": "layer-5e8906150932e5def2a9594f.png",
           "legenda": [
             {
               "label": "Footprint simbol bangunan",
               "warna": "#ffdb80"
             }
+          ],
+          "batas": [
+            [
+              -5.63692792778641,
+              105.1564372507955
+            ],
+            [
+              -5.565062607021489,
+              105.2377398882322
+            ]
+          ],
+          "ukuran_px": [
+            1073,
+            953
           ]
         },
         {
           "nama": "Jejak jalan dan koridor",
           "jenis_sumber": "vektor",
           "crs_asli": "EPSG:32748",
-          "aset": "layer-ce3018596155a084bc73c760.png",
+          "aset": "layer-b51574d04ae5bb9142fc3054.png",
           "legenda": [
             {
               "label": "Jejak jalan dan koridor",
               "warna": "#ffb55b"
             }
+          ],
+          "batas": [
+            [
+              -5.657814715189146,
+              105.14992091638773
+            ],
+            [
+              -5.559783589424353,
+              105.24251348204254
+            ]
+          ],
+          "ukuran_px": [
+            1222,
+            1300
           ]
         },
         {
           "nama": "Jejak garis merah - daratan dan Piabung",
           "jenis_sumber": "vektor",
           "crs_asli": "EPSG:32748",
-          "aset": "layer-f1c2fa8ac8e62058d71f2386.png",
+          "aset": "layer-8df8bc2bfac3593e6b2df647.png",
           "legenda": [
             {
               "label": "Jejak garis merah - daratan dan Piabung",
               "warna": "#0000ff"
             }
+          ],
+          "batas": [
+            [
+              -5.618679649939698,
+              105.15014823037869
+            ],
+            [
+              -5.561291884999619,
+              105.22501030473792
+            ]
+          ],
+          "ukuran_px": [
+            988,
+            761
           ]
         },
         {
           "nama": "Cakupan gambar Kalagian",
           "jenis_sumber": "vektor",
           "crs_asli": "EPSG:32748",
-          "aset": "layer-895835db7276841f0ddbc79a.png",
+          "aset": "layer-69479f51208bcef07f91f640.png",
           "legenda": [
             {
               "label": "Cakupan gambar Kalagian",
               "warna": "#0000ff"
             }
+          ],
+          "batas": [
+            [
+              -5.641753822785168,
+              105.21159877927072
+            ],
+            [
+              -5.617397724608051,
+              105.24251348204254
+            ]
+          ],
+          "ukuran_px": [
+            408,
+            323
           ]
         },
         {
           "nama": "Blok fasilitas dan perkerasan",
           "jenis_sumber": "vektor",
           "crs_asli": "EPSG:32748",
-          "aset": "layer-57a45e5ac5ab383e1df9c88b.png",
+          "aset": "layer-6837159e7fa9caee7c61ae0c.png",
           "legenda": [
             {
               "label": "Blok fasilitas dan perkerasan",
               "warna": "#0000ff"
             }
+          ],
+          "batas": [
+            [
+              -5.637983595746788,
+              105.1571191927684
+            ],
+            [
+              -5.564610121655202,
+              105.2400887994722
+            ]
+          ],
+          "ukuran_px": [
+            1095,
+            973
           ]
         },
         {
           "nama": "Jejak kontur batimetri",
           "jenis_sumber": "vektor",
           "crs_asli": "EPSG:32748",
-          "aset": "layer-ddf2ae987cc1ac094c8806e2.png",
+          "aset": "layer-8cf14f4f077394b2c508179d.png",
           "legenda": [
             {
               "label": "Jejak kontur batimetri",
               "warna": "#9bdaf5"
             }
+          ],
+          "batas": [
+            [
+              -5.61076183074883,
+              105.17000031892336
+            ],
+            [
+              -5.579164892933805,
+              105.21902436964238
+            ]
+          ],
+          "ukuran_px": [
+            647,
+            419
           ]
         },
         {
@@ -2228,7 +3040,7 @@ const katalogPeta = {
           "nama": "Mangrove indikatif 2021",
           "jenis_sumber": "vektor",
           "crs_asli": "EPSG:4326",
-          "aset": "layer-b33d8b03fa6504b7abe3f4d8.png",
+          "aset": "layer-e09df355a874edad8dc9d639.webp",
           "legenda": [
             {
               "label": "Mangrove indikatif 2021",
@@ -2240,36 +3052,78 @@ const katalogPeta = {
           "nama": "Lahan basah herba indikatif 2021",
           "jenis_sumber": "vektor",
           "crs_asli": "EPSG:4326",
-          "aset": "layer-d264fa9a56e723af27177136.png",
+          "aset": "layer-05858aa3eb94763ebb4c8e57.png",
           "legenda": [
             {
               "label": "Lahan basah herba indikatif 2021",
               "warna": "#86cfec"
             }
+          ],
+          "batas": [
+            [
+              -5.660076776906523,
+              105.1751527693853
+            ],
+            [
+              -5.531653169848387,
+              105.25834969008008
+            ]
+          ],
+          "ukuran_px": [
+            1098,
+            1703
           ]
         },
         {
           "nama": "Tambak - RBI 2013",
           "jenis_sumber": "vektor",
           "crs_asli": "EPSG:4326",
-          "aset": "layer-0099d5c6d6e075641b4fb5d5.png",
+          "aset": "layer-4e23ebdf0ad2fd407720420e.png",
           "legenda": [
             {
               "label": "Tambak - RBI 2013",
               "warna": "#f1a54c"
             }
+          ],
+          "batas": [
+            [
+              -5.656759083359621,
+              105.17462237007305
+            ],
+            [
+              -5.52991854248339,
+              105.2502421577355
+            ]
+          ],
+          "ukuran_px": [
+            998,
+            1682
           ]
         },
         {
           "nama": "Rawa - RBI 2013",
           "jenis_sumber": "vektor",
           "crs_asli": "EPSG:4326",
-          "aset": "layer-b71dde4ea322062d0671b3f4.png",
+          "aset": "layer-5bc7442f3ed09a5551a512ce.png",
           "legenda": [
             {
               "label": "Rawa - RBI 2013",
               "warna": "#bc89c4"
             }
+          ],
+          "batas": [
+            [
+              -5.660076776906523,
+              105.18803389554024
+            ],
+            [
+              -5.6556280471187765,
+              105.19545948591191
+            ]
+          ],
+          "ukuran_px": [
+            98,
+            59
           ]
         },
         {
@@ -2458,120 +3312,260 @@ const katalogPeta = {
           "nama": "Titik permukiman - OSM",
           "jenis_sumber": "vektor",
           "crs_asli": "EPSG:4326",
-          "aset": "layer-e6dba0a97aa445279dd4a181.png",
+          "aset": "layer-ebc881d66d2616f9c7d18600.png",
           "legenda": [
             {
               "label": "Titik permukiman - OSM",
               "warna": "#a75a37"
             }
+          ],
+          "batas": [
+            [
+              -5.6549494243129255,
+              105.15386102556454
+            ],
+            [
+              -5.531653169848387,
+              105.24812056048646
+            ]
+          ],
+          "ukuran_px": [
+            1244,
+            1635
           ]
         },
         {
           "nama": "Jembatan terpetakan",
           "jenis_sumber": "vektor",
           "crs_asli": "EPSG:4326",
-          "aset": "layer-19a30fa291b886d8ab5fcd93.png",
+          "aset": "layer-49ea97a9bf74aa15466d06a8.png",
           "legenda": [
             {
               "label": "Jembatan terpetakan",
               "warna": "#4b3d35"
             }
+          ],
+          "batas": [
+            [
+              -5.658568736744851,
+              105.15757382075036
+            ],
+            [
+              -5.564610121655202,
+              105.24516547860387
+            ]
+          ],
+          "ukuran_px": [
+            1156,
+            1246
           ]
         },
         {
           "nama": "Jembatan Kalagian dan akses dermaga",
           "jenis_sumber": "vektor",
           "crs_asli": "EPSG:32748",
-          "aset": "layer-1dac4413c3f71a97ca59c2a5.png",
+          "aset": "layer-6ef327ec953e1f33c0886ef3.png",
           "legenda": [
             {
               "label": "Jembatan Kalagian dan akses dermaga",
               "warna": "#f59dd1"
             }
+          ],
+          "batas": [
+            [
+              -5.644920794558292,
+              105.17090957488722
+            ],
+            [
+              -5.608952028406734,
+              105.2160692877598
+            ]
+          ],
+          "ukuran_px": [
+            596,
+            477
           ]
         },
         {
           "nama": "Dermaga dan struktur perairan",
           "jenis_sumber": "vektor",
           "crs_asli": "EPSG:32748",
-          "aset": "layer-14cf0a091b878d164a5820dc.png",
+          "aset": "layer-72b0043fc38c96cb79facab4.png",
           "legenda": [
             {
               "label": "Dermaga dan struktur perairan",
               "warna": "#dfa7ea"
             }
+          ],
+          "batas": [
+            [
+              -5.620640236165315,
+              105.18901892283444
+            ],
+            [
+              -5.576600866143808,
+              105.21652391574173
+            ]
+          ],
+          "ukuran_px": [
+            363,
+            584
           ]
         },
         {
           "nama": "Footprint simbol bangunan",
           "jenis_sumber": "vektor",
           "crs_asli": "EPSG:32748",
-          "aset": "layer-8d899515de9f2e7d19358e1b.png",
+          "aset": "layer-5e8906150932e5def2a9594f.png",
           "legenda": [
             {
               "label": "Footprint simbol bangunan",
               "warna": "#ffdb80"
             }
+          ],
+          "batas": [
+            [
+              -5.63692792778641,
+              105.1564372507955
+            ],
+            [
+              -5.565062607021489,
+              105.2377398882322
+            ]
+          ],
+          "ukuran_px": [
+            1073,
+            953
           ]
         },
         {
           "nama": "Jejak jalan dan koridor",
           "jenis_sumber": "vektor",
           "crs_asli": "EPSG:32748",
-          "aset": "layer-ce3018596155a084bc73c760.png",
+          "aset": "layer-b51574d04ae5bb9142fc3054.png",
           "legenda": [
             {
               "label": "Jejak jalan dan koridor",
               "warna": "#ffb55b"
             }
+          ],
+          "batas": [
+            [
+              -5.657814715189146,
+              105.14992091638773
+            ],
+            [
+              -5.559783589424353,
+              105.24251348204254
+            ]
+          ],
+          "ukuran_px": [
+            1222,
+            1300
           ]
         },
         {
           "nama": "Jejak garis merah - daratan dan Piabung",
           "jenis_sumber": "vektor",
           "crs_asli": "EPSG:32748",
-          "aset": "layer-f1c2fa8ac8e62058d71f2386.png",
+          "aset": "layer-8df8bc2bfac3593e6b2df647.png",
           "legenda": [
             {
               "label": "Jejak garis merah - daratan dan Piabung",
               "warna": "#0000ff"
             }
+          ],
+          "batas": [
+            [
+              -5.618679649939698,
+              105.15014823037869
+            ],
+            [
+              -5.561291884999619,
+              105.22501030473792
+            ]
+          ],
+          "ukuran_px": [
+            988,
+            761
           ]
         },
         {
           "nama": "Cakupan gambar Kalagian",
           "jenis_sumber": "vektor",
           "crs_asli": "EPSG:32748",
-          "aset": "layer-895835db7276841f0ddbc79a.png",
+          "aset": "layer-69479f51208bcef07f91f640.png",
           "legenda": [
             {
               "label": "Cakupan gambar Kalagian",
               "warna": "#0000ff"
             }
+          ],
+          "batas": [
+            [
+              -5.641753822785168,
+              105.21159877927072
+            ],
+            [
+              -5.617397724608051,
+              105.24251348204254
+            ]
+          ],
+          "ukuran_px": [
+            408,
+            323
           ]
         },
         {
           "nama": "Blok fasilitas dan perkerasan",
           "jenis_sumber": "vektor",
           "crs_asli": "EPSG:32748",
-          "aset": "layer-57a45e5ac5ab383e1df9c88b.png",
+          "aset": "layer-6837159e7fa9caee7c61ae0c.png",
           "legenda": [
             {
               "label": "Blok fasilitas dan perkerasan",
               "warna": "#0000ff"
             }
+          ],
+          "batas": [
+            [
+              -5.637983595746788,
+              105.1571191927684
+            ],
+            [
+              -5.564610121655202,
+              105.2400887994722
+            ]
+          ],
+          "ukuran_px": [
+            1095,
+            973
           ]
         },
         {
           "nama": "Jejak kontur batimetri",
           "jenis_sumber": "vektor",
           "crs_asli": "EPSG:32748",
-          "aset": "layer-ddf2ae987cc1ac094c8806e2.png",
+          "aset": "layer-8cf14f4f077394b2c508179d.png",
           "legenda": [
             {
               "label": "Jejak kontur batimetri",
               "warna": "#9bdaf5"
             }
+          ],
+          "batas": [
+            [
+              -5.61076183074883,
+              105.17000031892336
+            ],
+            [
+              -5.579164892933805,
+              105.21902436964238
+            ]
+          ],
+          "ukuran_px": [
+            647,
+            419
           ]
         },
         {
@@ -2590,19 +3584,33 @@ const katalogPeta = {
           "nama": "Footprint bangunan umum terpetakan",
           "jenis_sumber": "vektor",
           "crs_asli": "EPSG:4326",
-          "aset": "layer-bbd1eb596b24971491d8b8d7.png",
+          "aset": "layer-5978977ff94a418d83035497.png",
           "legenda": [
             {
               "label": "Footprint bangunan umum terpetakan",
               "warna": "#ed685d"
             }
+          ],
+          "batas": [
+            [
+              -5.572905631357898,
+              105.22387373478307
+            ],
+            [
+              -5.53074814750979,
+              105.23789143089283
+            ]
+          ],
+          "ukuran_px": [
+            185,
+            559
           ]
         },
         {
           "nama": "Jalan umum terpetakan",
           "jenis_sumber": "vektor",
           "crs_asli": "EPSG:4326",
-          "aset": "layer-2feb2a104b318568c0865eb0.png",
+          "aset": "layer-bbf9808e62e7271494d6cf5f.webp",
           "legenda": [
             {
               "label": "Jalan umum terpetakan",
@@ -2813,48 +3821,104 @@ const katalogPeta = {
           "nama": "Muara kandidat",
           "jenis_sumber": "vektor",
           "crs_asli": "EPSG:4326",
-          "aset": "layer-a9f9099461454f49f6917a30.png",
+          "aset": "layer-13cd6bb62ae44baca1a9c913.png",
           "legenda": [
             {
               "label": "Muara kandidat",
               "warna": "#38afd7"
             }
+          ],
+          "batas": [
+            [
+              -5.59040123102248,
+              105.17735013796468
+            ],
+            [
+              -5.577204167573082,
+              105.20546130151455
+            ]
+          ],
+          "ukuran_px": [
+            371,
+            175
           ]
         },
         {
           "nama": "Outlet model tangkapan",
           "jenis_sumber": "vektor",
           "crs_asli": "EPSG:32748",
-          "aset": "layer-88649cfe19fd2cfd15b73d17.png",
+          "aset": "layer-a4786175c5dd5700b233ba30.png",
           "legenda": [
             {
               "label": "Outlet model tangkapan",
               "warna": "#397ec5"
             }
+          ],
+          "batas": [
+            [
+              -5.651707104367999,
+              105.16674215171946
+            ],
+            [
+              -5.533387792127421,
+              105.25054524305679
+            ]
+          ],
+          "ukuran_px": [
+            1106,
+            1569
           ]
         },
         {
           "nama": "Sungai dan alur terpetakan - OSM",
           "jenis_sumber": "vektor",
           "crs_asli": "EPSG:4326",
-          "aset": "layer-fee22f4f3fd6d8bbb45d240a.png",
+          "aset": "layer-990705a906d4871fea0e4a0b.png",
           "legenda": [
             {
               "label": "Sungai dan alur terpetakan - OSM",
               "warna": "#51bafa"
             }
+          ],
+          "batas": [
+            [
+              -5.6025422666379905,
+              105.14992091638773
+            ],
+            [
+              -5.52991854248339,
+              105.22849578593276
+            ]
+          ],
+          "ukuran_px": [
+            1037,
+            963
           ]
         },
         {
           "nama": "Sungai pembanding - RBI 2013",
           "jenis_sumber": "vektor",
           "crs_asli": "EPSG:4326",
-          "aset": "layer-6872400e7a4b3cf0607a8279.png",
+          "aset": "layer-e90858fc25967b263047407e.png",
           "legenda": [
             {
               "label": "Sungai pembanding - RBI 2013",
               "warna": "#cea8f6"
             }
+          ],
+          "batas": [
+            [
+              -5.6025422666379905,
+              105.14999668771804
+            ],
+            [
+              -5.588365132055098,
+              105.17166728819045
+            ]
+          ],
+          "ukuran_px": [
+            286,
+            188
           ]
         },
         {
@@ -2873,96 +3937,208 @@ const katalogPeta = {
           "nama": "Jembatan Kalagian dan akses dermaga",
           "jenis_sumber": "vektor",
           "crs_asli": "EPSG:32748",
-          "aset": "layer-1dac4413c3f71a97ca59c2a5.png",
+          "aset": "layer-6ef327ec953e1f33c0886ef3.png",
           "legenda": [
             {
               "label": "Jembatan Kalagian dan akses dermaga",
               "warna": "#f59dd1"
             }
+          ],
+          "batas": [
+            [
+              -5.644920794558292,
+              105.17090957488722
+            ],
+            [
+              -5.608952028406734,
+              105.2160692877598
+            ]
+          ],
+          "ukuran_px": [
+            596,
+            477
           ]
         },
         {
           "nama": "Dermaga dan struktur perairan",
           "jenis_sumber": "vektor",
           "crs_asli": "EPSG:32748",
-          "aset": "layer-14cf0a091b878d164a5820dc.png",
+          "aset": "layer-72b0043fc38c96cb79facab4.png",
           "legenda": [
             {
               "label": "Dermaga dan struktur perairan",
               "warna": "#dfa7ea"
             }
+          ],
+          "batas": [
+            [
+              -5.620640236165315,
+              105.18901892283444
+            ],
+            [
+              -5.576600866143808,
+              105.21652391574173
+            ]
+          ],
+          "ukuran_px": [
+            363,
+            584
           ]
         },
         {
           "nama": "Footprint simbol bangunan",
           "jenis_sumber": "vektor",
           "crs_asli": "EPSG:32748",
-          "aset": "layer-8d899515de9f2e7d19358e1b.png",
+          "aset": "layer-5e8906150932e5def2a9594f.png",
           "legenda": [
             {
               "label": "Footprint simbol bangunan",
               "warna": "#ffdb80"
             }
+          ],
+          "batas": [
+            [
+              -5.63692792778641,
+              105.1564372507955
+            ],
+            [
+              -5.565062607021489,
+              105.2377398882322
+            ]
+          ],
+          "ukuran_px": [
+            1073,
+            953
           ]
         },
         {
           "nama": "Jejak jalan dan koridor",
           "jenis_sumber": "vektor",
           "crs_asli": "EPSG:32748",
-          "aset": "layer-ce3018596155a084bc73c760.png",
+          "aset": "layer-b51574d04ae5bb9142fc3054.png",
           "legenda": [
             {
               "label": "Jejak jalan dan koridor",
               "warna": "#ffb55b"
             }
+          ],
+          "batas": [
+            [
+              -5.657814715189146,
+              105.14992091638773
+            ],
+            [
+              -5.559783589424353,
+              105.24251348204254
+            ]
+          ],
+          "ukuran_px": [
+            1222,
+            1300
           ]
         },
         {
           "nama": "Jejak garis merah - daratan dan Piabung",
           "jenis_sumber": "vektor",
           "crs_asli": "EPSG:32748",
-          "aset": "layer-f1c2fa8ac8e62058d71f2386.png",
+          "aset": "layer-8df8bc2bfac3593e6b2df647.png",
           "legenda": [
             {
               "label": "Jejak garis merah - daratan dan Piabung",
               "warna": "#0000ff"
             }
+          ],
+          "batas": [
+            [
+              -5.618679649939698,
+              105.15014823037869
+            ],
+            [
+              -5.561291884999619,
+              105.22501030473792
+            ]
+          ],
+          "ukuran_px": [
+            988,
+            761
           ]
         },
         {
           "nama": "Cakupan gambar Kalagian",
           "jenis_sumber": "vektor",
           "crs_asli": "EPSG:32748",
-          "aset": "layer-895835db7276841f0ddbc79a.png",
+          "aset": "layer-69479f51208bcef07f91f640.png",
           "legenda": [
             {
               "label": "Cakupan gambar Kalagian",
               "warna": "#0000ff"
             }
+          ],
+          "batas": [
+            [
+              -5.641753822785168,
+              105.21159877927072
+            ],
+            [
+              -5.617397724608051,
+              105.24251348204254
+            ]
+          ],
+          "ukuran_px": [
+            408,
+            323
           ]
         },
         {
           "nama": "Blok fasilitas dan perkerasan",
           "jenis_sumber": "vektor",
           "crs_asli": "EPSG:32748",
-          "aset": "layer-57a45e5ac5ab383e1df9c88b.png",
+          "aset": "layer-6837159e7fa9caee7c61ae0c.png",
           "legenda": [
             {
               "label": "Blok fasilitas dan perkerasan",
               "warna": "#0000ff"
             }
+          ],
+          "batas": [
+            [
+              -5.637983595746788,
+              105.1571191927684
+            ],
+            [
+              -5.564610121655202,
+              105.2400887994722
+            ]
+          ],
+          "ukuran_px": [
+            1095,
+            973
           ]
         },
         {
           "nama": "Jejak kontur batimetri",
           "jenis_sumber": "vektor",
           "crs_asli": "EPSG:32748",
-          "aset": "layer-ddf2ae987cc1ac094c8806e2.png",
+          "aset": "layer-8cf14f4f077394b2c508179d.png",
           "legenda": [
             {
               "label": "Jejak kontur batimetri",
               "warna": "#9bdaf5"
             }
+          ],
+          "batas": [
+            [
+              -5.61076183074883,
+              105.17000031892336
+            ],
+            [
+              -5.579164892933805,
+              105.21902436964238
+            ]
+          ],
+          "ukuran_px": [
+            647,
+            419
           ]
         },
         {
@@ -2981,7 +4157,7 @@ const katalogPeta = {
           "nama": "Daerah tangkapan indikatif",
           "jenis_sumber": "vektor",
           "crs_asli": "EPSG:32748",
-          "aset": "layer-a4c9de012feb0bb8c1c61ad7.png",
+          "aset": "layer-0ca1074ac65feb3c6e31c5f4.webp",
           "legenda": [
             {
               "label": "Tangkapan indikatif",
@@ -3196,7 +4372,7 @@ const katalogPeta = {
           "nama": "Garis pantai tahunan 1988–2023",
           "jenis_sumber": "vektor",
           "crs_asli": "EPSG:32748",
-          "aset": "layer-bac1368de17aea6d040d3d83.png",
+          "aset": "layer-2dba413c002621c97b3de1df.webp",
           "legenda": [
             {
               "label": "1988",
@@ -3348,96 +4524,208 @@ const katalogPeta = {
           "nama": "Jembatan Kalagian dan akses dermaga",
           "jenis_sumber": "vektor",
           "crs_asli": "EPSG:32748",
-          "aset": "layer-1dac4413c3f71a97ca59c2a5.png",
+          "aset": "layer-6ef327ec953e1f33c0886ef3.png",
           "legenda": [
             {
               "label": "Jembatan Kalagian dan akses dermaga",
               "warna": "#f59dd1"
             }
+          ],
+          "batas": [
+            [
+              -5.644920794558292,
+              105.17090957488722
+            ],
+            [
+              -5.608952028406734,
+              105.2160692877598
+            ]
+          ],
+          "ukuran_px": [
+            596,
+            477
           ]
         },
         {
           "nama": "Dermaga dan struktur perairan",
           "jenis_sumber": "vektor",
           "crs_asli": "EPSG:32748",
-          "aset": "layer-14cf0a091b878d164a5820dc.png",
+          "aset": "layer-72b0043fc38c96cb79facab4.png",
           "legenda": [
             {
               "label": "Dermaga dan struktur perairan",
               "warna": "#dfa7ea"
             }
+          ],
+          "batas": [
+            [
+              -5.620640236165315,
+              105.18901892283444
+            ],
+            [
+              -5.576600866143808,
+              105.21652391574173
+            ]
+          ],
+          "ukuran_px": [
+            363,
+            584
           ]
         },
         {
           "nama": "Footprint simbol bangunan",
           "jenis_sumber": "vektor",
           "crs_asli": "EPSG:32748",
-          "aset": "layer-8d899515de9f2e7d19358e1b.png",
+          "aset": "layer-5e8906150932e5def2a9594f.png",
           "legenda": [
             {
               "label": "Footprint simbol bangunan",
               "warna": "#ffdb80"
             }
+          ],
+          "batas": [
+            [
+              -5.63692792778641,
+              105.1564372507955
+            ],
+            [
+              -5.565062607021489,
+              105.2377398882322
+            ]
+          ],
+          "ukuran_px": [
+            1073,
+            953
           ]
         },
         {
           "nama": "Jejak jalan dan koridor",
           "jenis_sumber": "vektor",
           "crs_asli": "EPSG:32748",
-          "aset": "layer-ce3018596155a084bc73c760.png",
+          "aset": "layer-b51574d04ae5bb9142fc3054.png",
           "legenda": [
             {
               "label": "Jejak jalan dan koridor",
               "warna": "#ffb55b"
             }
+          ],
+          "batas": [
+            [
+              -5.657814715189146,
+              105.14992091638773
+            ],
+            [
+              -5.559783589424353,
+              105.24251348204254
+            ]
+          ],
+          "ukuran_px": [
+            1222,
+            1300
           ]
         },
         {
           "nama": "Jejak garis merah - daratan dan Piabung",
           "jenis_sumber": "vektor",
           "crs_asli": "EPSG:32748",
-          "aset": "layer-f1c2fa8ac8e62058d71f2386.png",
+          "aset": "layer-8df8bc2bfac3593e6b2df647.png",
           "legenda": [
             {
               "label": "Jejak garis merah - daratan dan Piabung",
               "warna": "#0000ff"
             }
+          ],
+          "batas": [
+            [
+              -5.618679649939698,
+              105.15014823037869
+            ],
+            [
+              -5.561291884999619,
+              105.22501030473792
+            ]
+          ],
+          "ukuran_px": [
+            988,
+            761
           ]
         },
         {
           "nama": "Cakupan gambar Kalagian",
           "jenis_sumber": "vektor",
           "crs_asli": "EPSG:32748",
-          "aset": "layer-895835db7276841f0ddbc79a.png",
+          "aset": "layer-69479f51208bcef07f91f640.png",
           "legenda": [
             {
               "label": "Cakupan gambar Kalagian",
               "warna": "#0000ff"
             }
+          ],
+          "batas": [
+            [
+              -5.641753822785168,
+              105.21159877927072
+            ],
+            [
+              -5.617397724608051,
+              105.24251348204254
+            ]
+          ],
+          "ukuran_px": [
+            408,
+            323
           ]
         },
         {
           "nama": "Blok fasilitas dan perkerasan",
           "jenis_sumber": "vektor",
           "crs_asli": "EPSG:32748",
-          "aset": "layer-57a45e5ac5ab383e1df9c88b.png",
+          "aset": "layer-6837159e7fa9caee7c61ae0c.png",
           "legenda": [
             {
               "label": "Blok fasilitas dan perkerasan",
               "warna": "#0000ff"
             }
+          ],
+          "batas": [
+            [
+              -5.637983595746788,
+              105.1571191927684
+            ],
+            [
+              -5.564610121655202,
+              105.2400887994722
+            ]
+          ],
+          "ukuran_px": [
+            1095,
+            973
           ]
         },
         {
           "nama": "Jejak kontur batimetri",
           "jenis_sumber": "vektor",
           "crs_asli": "EPSG:32748",
-          "aset": "layer-ddf2ae987cc1ac094c8806e2.png",
+          "aset": "layer-8cf14f4f077394b2c508179d.png",
           "legenda": [
             {
               "label": "Jejak kontur batimetri",
               "warna": "#9bdaf5"
             }
+          ],
+          "batas": [
+            [
+              -5.61076183074883,
+              105.17000031892336
+            ],
+            [
+              -5.579164892933805,
+              105.21902436964238
+            ]
+          ],
+          "ukuran_px": [
+            647,
+            419
           ]
         },
         {
@@ -3605,96 +4893,208 @@ const katalogPeta = {
           "nama": "Jembatan Kalagian dan akses dermaga",
           "jenis_sumber": "vektor",
           "crs_asli": "EPSG:32748",
-          "aset": "layer-1dac4413c3f71a97ca59c2a5.png",
+          "aset": "layer-6ef327ec953e1f33c0886ef3.png",
           "legenda": [
             {
               "label": "Jembatan Kalagian dan akses dermaga",
               "warna": "#f59dd1"
             }
+          ],
+          "batas": [
+            [
+              -5.644920794558292,
+              105.17090957488722
+            ],
+            [
+              -5.608952028406734,
+              105.2160692877598
+            ]
+          ],
+          "ukuran_px": [
+            596,
+            477
           ]
         },
         {
           "nama": "Dermaga dan struktur perairan",
           "jenis_sumber": "vektor",
           "crs_asli": "EPSG:32748",
-          "aset": "layer-14cf0a091b878d164a5820dc.png",
+          "aset": "layer-72b0043fc38c96cb79facab4.png",
           "legenda": [
             {
               "label": "Dermaga dan struktur perairan",
               "warna": "#dfa7ea"
             }
+          ],
+          "batas": [
+            [
+              -5.620640236165315,
+              105.18901892283444
+            ],
+            [
+              -5.576600866143808,
+              105.21652391574173
+            ]
+          ],
+          "ukuran_px": [
+            363,
+            584
           ]
         },
         {
           "nama": "Footprint simbol bangunan",
           "jenis_sumber": "vektor",
           "crs_asli": "EPSG:32748",
-          "aset": "layer-8d899515de9f2e7d19358e1b.png",
+          "aset": "layer-5e8906150932e5def2a9594f.png",
           "legenda": [
             {
               "label": "Footprint simbol bangunan",
               "warna": "#ffdb80"
             }
+          ],
+          "batas": [
+            [
+              -5.63692792778641,
+              105.1564372507955
+            ],
+            [
+              -5.565062607021489,
+              105.2377398882322
+            ]
+          ],
+          "ukuran_px": [
+            1073,
+            953
           ]
         },
         {
           "nama": "Jejak jalan dan koridor",
           "jenis_sumber": "vektor",
           "crs_asli": "EPSG:32748",
-          "aset": "layer-ce3018596155a084bc73c760.png",
+          "aset": "layer-b51574d04ae5bb9142fc3054.png",
           "legenda": [
             {
               "label": "Jejak jalan dan koridor",
               "warna": "#ffb55b"
             }
+          ],
+          "batas": [
+            [
+              -5.657814715189146,
+              105.14992091638773
+            ],
+            [
+              -5.559783589424353,
+              105.24251348204254
+            ]
+          ],
+          "ukuran_px": [
+            1222,
+            1300
           ]
         },
         {
           "nama": "Jejak garis merah - daratan dan Piabung",
           "jenis_sumber": "vektor",
           "crs_asli": "EPSG:32748",
-          "aset": "layer-f1c2fa8ac8e62058d71f2386.png",
+          "aset": "layer-8df8bc2bfac3593e6b2df647.png",
           "legenda": [
             {
               "label": "Jejak garis merah - daratan dan Piabung",
               "warna": "#0000ff"
             }
+          ],
+          "batas": [
+            [
+              -5.618679649939698,
+              105.15014823037869
+            ],
+            [
+              -5.561291884999619,
+              105.22501030473792
+            ]
+          ],
+          "ukuran_px": [
+            988,
+            761
           ]
         },
         {
           "nama": "Cakupan gambar Kalagian",
           "jenis_sumber": "vektor",
           "crs_asli": "EPSG:32748",
-          "aset": "layer-895835db7276841f0ddbc79a.png",
+          "aset": "layer-69479f51208bcef07f91f640.png",
           "legenda": [
             {
               "label": "Cakupan gambar Kalagian",
               "warna": "#0000ff"
             }
+          ],
+          "batas": [
+            [
+              -5.641753822785168,
+              105.21159877927072
+            ],
+            [
+              -5.617397724608051,
+              105.24251348204254
+            ]
+          ],
+          "ukuran_px": [
+            408,
+            323
           ]
         },
         {
           "nama": "Blok fasilitas dan perkerasan",
           "jenis_sumber": "vektor",
           "crs_asli": "EPSG:32748",
-          "aset": "layer-57a45e5ac5ab383e1df9c88b.png",
+          "aset": "layer-6837159e7fa9caee7c61ae0c.png",
           "legenda": [
             {
               "label": "Blok fasilitas dan perkerasan",
               "warna": "#0000ff"
             }
+          ],
+          "batas": [
+            [
+              -5.637983595746788,
+              105.1571191927684
+            ],
+            [
+              -5.564610121655202,
+              105.2400887994722
+            ]
+          ],
+          "ukuran_px": [
+            1095,
+            973
           ]
         },
         {
           "nama": "Jejak kontur batimetri",
           "jenis_sumber": "vektor",
           "crs_asli": "EPSG:32748",
-          "aset": "layer-ddf2ae987cc1ac094c8806e2.png",
+          "aset": "layer-8cf14f4f077394b2c508179d.png",
           "legenda": [
             {
               "label": "Jejak kontur batimetri",
               "warna": "#9bdaf5"
             }
+          ],
+          "batas": [
+            [
+              -5.61076183074883,
+              105.17000031892336
+            ],
+            [
+              -5.579164892933805,
+              105.21902436964238
+            ]
+          ],
+          "ukuran_px": [
+            647,
+            419
           ]
         },
         {
@@ -3929,96 +5329,208 @@ const katalogPeta = {
           "nama": "Jembatan Kalagian dan akses dermaga",
           "jenis_sumber": "vektor",
           "crs_asli": "EPSG:32748",
-          "aset": "layer-1dac4413c3f71a97ca59c2a5.png",
+          "aset": "layer-6ef327ec953e1f33c0886ef3.png",
           "legenda": [
             {
               "label": "Jembatan Kalagian dan akses dermaga",
               "warna": "#f59dd1"
             }
+          ],
+          "batas": [
+            [
+              -5.644920794558292,
+              105.17090957488722
+            ],
+            [
+              -5.608952028406734,
+              105.2160692877598
+            ]
+          ],
+          "ukuran_px": [
+            596,
+            477
           ]
         },
         {
           "nama": "Dermaga dan struktur perairan",
           "jenis_sumber": "vektor",
           "crs_asli": "EPSG:32748",
-          "aset": "layer-14cf0a091b878d164a5820dc.png",
+          "aset": "layer-72b0043fc38c96cb79facab4.png",
           "legenda": [
             {
               "label": "Dermaga dan struktur perairan",
               "warna": "#dfa7ea"
             }
+          ],
+          "batas": [
+            [
+              -5.620640236165315,
+              105.18901892283444
+            ],
+            [
+              -5.576600866143808,
+              105.21652391574173
+            ]
+          ],
+          "ukuran_px": [
+            363,
+            584
           ]
         },
         {
           "nama": "Footprint simbol bangunan",
           "jenis_sumber": "vektor",
           "crs_asli": "EPSG:32748",
-          "aset": "layer-8d899515de9f2e7d19358e1b.png",
+          "aset": "layer-5e8906150932e5def2a9594f.png",
           "legenda": [
             {
               "label": "Footprint simbol bangunan",
               "warna": "#ffdb80"
             }
+          ],
+          "batas": [
+            [
+              -5.63692792778641,
+              105.1564372507955
+            ],
+            [
+              -5.565062607021489,
+              105.2377398882322
+            ]
+          ],
+          "ukuran_px": [
+            1073,
+            953
           ]
         },
         {
           "nama": "Jejak jalan dan koridor",
           "jenis_sumber": "vektor",
           "crs_asli": "EPSG:32748",
-          "aset": "layer-ce3018596155a084bc73c760.png",
+          "aset": "layer-b51574d04ae5bb9142fc3054.png",
           "legenda": [
             {
               "label": "Jejak jalan dan koridor",
               "warna": "#ffb55b"
             }
+          ],
+          "batas": [
+            [
+              -5.657814715189146,
+              105.14992091638773
+            ],
+            [
+              -5.559783589424353,
+              105.24251348204254
+            ]
+          ],
+          "ukuran_px": [
+            1222,
+            1300
           ]
         },
         {
           "nama": "Jejak garis merah - daratan dan Piabung",
           "jenis_sumber": "vektor",
           "crs_asli": "EPSG:32748",
-          "aset": "layer-f1c2fa8ac8e62058d71f2386.png",
+          "aset": "layer-8df8bc2bfac3593e6b2df647.png",
           "legenda": [
             {
               "label": "Jejak garis merah - daratan dan Piabung",
               "warna": "#0000ff"
             }
+          ],
+          "batas": [
+            [
+              -5.618679649939698,
+              105.15014823037869
+            ],
+            [
+              -5.561291884999619,
+              105.22501030473792
+            ]
+          ],
+          "ukuran_px": [
+            988,
+            761
           ]
         },
         {
           "nama": "Cakupan gambar Kalagian",
           "jenis_sumber": "vektor",
           "crs_asli": "EPSG:32748",
-          "aset": "layer-895835db7276841f0ddbc79a.png",
+          "aset": "layer-69479f51208bcef07f91f640.png",
           "legenda": [
             {
               "label": "Cakupan gambar Kalagian",
               "warna": "#0000ff"
             }
+          ],
+          "batas": [
+            [
+              -5.641753822785168,
+              105.21159877927072
+            ],
+            [
+              -5.617397724608051,
+              105.24251348204254
+            ]
+          ],
+          "ukuran_px": [
+            408,
+            323
           ]
         },
         {
           "nama": "Blok fasilitas dan perkerasan",
           "jenis_sumber": "vektor",
           "crs_asli": "EPSG:32748",
-          "aset": "layer-57a45e5ac5ab383e1df9c88b.png",
+          "aset": "layer-6837159e7fa9caee7c61ae0c.png",
           "legenda": [
             {
               "label": "Blok fasilitas dan perkerasan",
               "warna": "#0000ff"
             }
+          ],
+          "batas": [
+            [
+              -5.637983595746788,
+              105.1571191927684
+            ],
+            [
+              -5.564610121655202,
+              105.2400887994722
+            ]
+          ],
+          "ukuran_px": [
+            1095,
+            973
           ]
         },
         {
           "nama": "Jejak kontur batimetri",
           "jenis_sumber": "vektor",
           "crs_asli": "EPSG:32748",
-          "aset": "layer-ddf2ae987cc1ac094c8806e2.png",
+          "aset": "layer-8cf14f4f077394b2c508179d.png",
           "legenda": [
             {
               "label": "Jejak kontur batimetri",
               "warna": "#9bdaf5"
             }
+          ],
+          "batas": [
+            [
+              -5.61076183074883,
+              105.17000031892336
+            ],
+            [
+              -5.579164892933805,
+              105.21902436964238
+            ]
+          ],
+          "ukuran_px": [
+            647,
+            419
           ]
         },
         {
@@ -4253,96 +5765,208 @@ const katalogPeta = {
           "nama": "Jembatan Kalagian dan akses dermaga",
           "jenis_sumber": "vektor",
           "crs_asli": "EPSG:32748",
-          "aset": "layer-1dac4413c3f71a97ca59c2a5.png",
+          "aset": "layer-6ef327ec953e1f33c0886ef3.png",
           "legenda": [
             {
               "label": "Jembatan Kalagian dan akses dermaga",
               "warna": "#f59dd1"
             }
+          ],
+          "batas": [
+            [
+              -5.644920794558292,
+              105.17090957488722
+            ],
+            [
+              -5.608952028406734,
+              105.2160692877598
+            ]
+          ],
+          "ukuran_px": [
+            596,
+            477
           ]
         },
         {
           "nama": "Dermaga dan struktur perairan",
           "jenis_sumber": "vektor",
           "crs_asli": "EPSG:32748",
-          "aset": "layer-14cf0a091b878d164a5820dc.png",
+          "aset": "layer-72b0043fc38c96cb79facab4.png",
           "legenda": [
             {
               "label": "Dermaga dan struktur perairan",
               "warna": "#dfa7ea"
             }
+          ],
+          "batas": [
+            [
+              -5.620640236165315,
+              105.18901892283444
+            ],
+            [
+              -5.576600866143808,
+              105.21652391574173
+            ]
+          ],
+          "ukuran_px": [
+            363,
+            584
           ]
         },
         {
           "nama": "Footprint simbol bangunan",
           "jenis_sumber": "vektor",
           "crs_asli": "EPSG:32748",
-          "aset": "layer-8d899515de9f2e7d19358e1b.png",
+          "aset": "layer-5e8906150932e5def2a9594f.png",
           "legenda": [
             {
               "label": "Footprint simbol bangunan",
               "warna": "#ffdb80"
             }
+          ],
+          "batas": [
+            [
+              -5.63692792778641,
+              105.1564372507955
+            ],
+            [
+              -5.565062607021489,
+              105.2377398882322
+            ]
+          ],
+          "ukuran_px": [
+            1073,
+            953
           ]
         },
         {
           "nama": "Jejak jalan dan koridor",
           "jenis_sumber": "vektor",
           "crs_asli": "EPSG:32748",
-          "aset": "layer-ce3018596155a084bc73c760.png",
+          "aset": "layer-b51574d04ae5bb9142fc3054.png",
           "legenda": [
             {
               "label": "Jejak jalan dan koridor",
               "warna": "#ffb55b"
             }
+          ],
+          "batas": [
+            [
+              -5.657814715189146,
+              105.14992091638773
+            ],
+            [
+              -5.559783589424353,
+              105.24251348204254
+            ]
+          ],
+          "ukuran_px": [
+            1222,
+            1300
           ]
         },
         {
           "nama": "Jejak garis merah - daratan dan Piabung",
           "jenis_sumber": "vektor",
           "crs_asli": "EPSG:32748",
-          "aset": "layer-f1c2fa8ac8e62058d71f2386.png",
+          "aset": "layer-8df8bc2bfac3593e6b2df647.png",
           "legenda": [
             {
               "label": "Jejak garis merah - daratan dan Piabung",
               "warna": "#0000ff"
             }
+          ],
+          "batas": [
+            [
+              -5.618679649939698,
+              105.15014823037869
+            ],
+            [
+              -5.561291884999619,
+              105.22501030473792
+            ]
+          ],
+          "ukuran_px": [
+            988,
+            761
           ]
         },
         {
           "nama": "Cakupan gambar Kalagian",
           "jenis_sumber": "vektor",
           "crs_asli": "EPSG:32748",
-          "aset": "layer-895835db7276841f0ddbc79a.png",
+          "aset": "layer-69479f51208bcef07f91f640.png",
           "legenda": [
             {
               "label": "Cakupan gambar Kalagian",
               "warna": "#0000ff"
             }
+          ],
+          "batas": [
+            [
+              -5.641753822785168,
+              105.21159877927072
+            ],
+            [
+              -5.617397724608051,
+              105.24251348204254
+            ]
+          ],
+          "ukuran_px": [
+            408,
+            323
           ]
         },
         {
           "nama": "Blok fasilitas dan perkerasan",
           "jenis_sumber": "vektor",
           "crs_asli": "EPSG:32748",
-          "aset": "layer-57a45e5ac5ab383e1df9c88b.png",
+          "aset": "layer-6837159e7fa9caee7c61ae0c.png",
           "legenda": [
             {
               "label": "Blok fasilitas dan perkerasan",
               "warna": "#0000ff"
             }
+          ],
+          "batas": [
+            [
+              -5.637983595746788,
+              105.1571191927684
+            ],
+            [
+              -5.564610121655202,
+              105.2400887994722
+            ]
+          ],
+          "ukuran_px": [
+            1095,
+            973
           ]
         },
         {
           "nama": "Jejak kontur batimetri",
           "jenis_sumber": "vektor",
           "crs_asli": "EPSG:32748",
-          "aset": "layer-ddf2ae987cc1ac094c8806e2.png",
+          "aset": "layer-8cf14f4f077394b2c508179d.png",
           "legenda": [
             {
               "label": "Jejak kontur batimetri",
               "warna": "#9bdaf5"
             }
+          ],
+          "batas": [
+            [
+              -5.61076183074883,
+              105.17000031892336
+            ],
+            [
+              -5.579164892933805,
+              105.21902436964238
+            ]
+          ],
+          "ukuran_px": [
+            647,
+            419
           ]
         },
         {
@@ -4361,7 +5985,7 @@ const katalogPeta = {
           "nama": "Transisi Tutupan Lahan 2020–2024 — Impact Observatory",
           "jenis_sumber": "vektor",
           "crs_asli": "EPSG:32748",
-          "aset": "layer-da40de883160e8110cd2a3aa.png",
+          "aset": "layer-440efa7c5bbb54ade21e1dd2.webp",
           "legenda": [
             {
               "label": "Peralihan air dan darat",
@@ -4553,96 +6177,208 @@ const katalogPeta = {
           "nama": "Jembatan Kalagian dan akses dermaga",
           "jenis_sumber": "vektor",
           "crs_asli": "EPSG:32748",
-          "aset": "layer-1dac4413c3f71a97ca59c2a5.png",
+          "aset": "layer-6ef327ec953e1f33c0886ef3.png",
           "legenda": [
             {
               "label": "Jembatan Kalagian dan akses dermaga",
               "warna": "#f59dd1"
             }
+          ],
+          "batas": [
+            [
+              -5.644920794558292,
+              105.17090957488722
+            ],
+            [
+              -5.608952028406734,
+              105.2160692877598
+            ]
+          ],
+          "ukuran_px": [
+            596,
+            477
           ]
         },
         {
           "nama": "Dermaga dan struktur perairan",
           "jenis_sumber": "vektor",
           "crs_asli": "EPSG:32748",
-          "aset": "layer-14cf0a091b878d164a5820dc.png",
+          "aset": "layer-72b0043fc38c96cb79facab4.png",
           "legenda": [
             {
               "label": "Dermaga dan struktur perairan",
               "warna": "#dfa7ea"
             }
+          ],
+          "batas": [
+            [
+              -5.620640236165315,
+              105.18901892283444
+            ],
+            [
+              -5.576600866143808,
+              105.21652391574173
+            ]
+          ],
+          "ukuran_px": [
+            363,
+            584
           ]
         },
         {
           "nama": "Footprint simbol bangunan",
           "jenis_sumber": "vektor",
           "crs_asli": "EPSG:32748",
-          "aset": "layer-8d899515de9f2e7d19358e1b.png",
+          "aset": "layer-5e8906150932e5def2a9594f.png",
           "legenda": [
             {
               "label": "Footprint simbol bangunan",
               "warna": "#ffdb80"
             }
+          ],
+          "batas": [
+            [
+              -5.63692792778641,
+              105.1564372507955
+            ],
+            [
+              -5.565062607021489,
+              105.2377398882322
+            ]
+          ],
+          "ukuran_px": [
+            1073,
+            953
           ]
         },
         {
           "nama": "Jejak jalan dan koridor",
           "jenis_sumber": "vektor",
           "crs_asli": "EPSG:32748",
-          "aset": "layer-ce3018596155a084bc73c760.png",
+          "aset": "layer-b51574d04ae5bb9142fc3054.png",
           "legenda": [
             {
               "label": "Jejak jalan dan koridor",
               "warna": "#ffb55b"
             }
+          ],
+          "batas": [
+            [
+              -5.657814715189146,
+              105.14992091638773
+            ],
+            [
+              -5.559783589424353,
+              105.24251348204254
+            ]
+          ],
+          "ukuran_px": [
+            1222,
+            1300
           ]
         },
         {
           "nama": "Jejak garis merah - daratan dan Piabung",
           "jenis_sumber": "vektor",
           "crs_asli": "EPSG:32748",
-          "aset": "layer-f1c2fa8ac8e62058d71f2386.png",
+          "aset": "layer-8df8bc2bfac3593e6b2df647.png",
           "legenda": [
             {
               "label": "Jejak garis merah - daratan dan Piabung",
               "warna": "#0000ff"
             }
+          ],
+          "batas": [
+            [
+              -5.618679649939698,
+              105.15014823037869
+            ],
+            [
+              -5.561291884999619,
+              105.22501030473792
+            ]
+          ],
+          "ukuran_px": [
+            988,
+            761
           ]
         },
         {
           "nama": "Cakupan gambar Kalagian",
           "jenis_sumber": "vektor",
           "crs_asli": "EPSG:32748",
-          "aset": "layer-895835db7276841f0ddbc79a.png",
+          "aset": "layer-69479f51208bcef07f91f640.png",
           "legenda": [
             {
               "label": "Cakupan gambar Kalagian",
               "warna": "#0000ff"
             }
+          ],
+          "batas": [
+            [
+              -5.641753822785168,
+              105.21159877927072
+            ],
+            [
+              -5.617397724608051,
+              105.24251348204254
+            ]
+          ],
+          "ukuran_px": [
+            408,
+            323
           ]
         },
         {
           "nama": "Blok fasilitas dan perkerasan",
           "jenis_sumber": "vektor",
           "crs_asli": "EPSG:32748",
-          "aset": "layer-57a45e5ac5ab383e1df9c88b.png",
+          "aset": "layer-6837159e7fa9caee7c61ae0c.png",
           "legenda": [
             {
               "label": "Blok fasilitas dan perkerasan",
               "warna": "#0000ff"
             }
+          ],
+          "batas": [
+            [
+              -5.637983595746788,
+              105.1571191927684
+            ],
+            [
+              -5.564610121655202,
+              105.2400887994722
+            ]
+          ],
+          "ukuran_px": [
+            1095,
+            973
           ]
         },
         {
           "nama": "Jejak kontur batimetri",
           "jenis_sumber": "vektor",
           "crs_asli": "EPSG:32748",
-          "aset": "layer-ddf2ae987cc1ac094c8806e2.png",
+          "aset": "layer-8cf14f4f077394b2c508179d.png",
           "legenda": [
             {
               "label": "Jejak kontur batimetri",
               "warna": "#9bdaf5"
             }
+          ],
+          "batas": [
+            [
+              -5.61076183074883,
+              105.17000031892336
+            ],
+            [
+              -5.579164892933805,
+              105.21902436964238
+            ]
+          ],
+          "ukuran_px": [
+            647,
+            419
           ]
         },
         {
@@ -4838,96 +6574,208 @@ const katalogPeta = {
           "nama": "Jembatan Kalagian dan akses dermaga",
           "jenis_sumber": "vektor",
           "crs_asli": "EPSG:32748",
-          "aset": "layer-1dac4413c3f71a97ca59c2a5.png",
+          "aset": "layer-6ef327ec953e1f33c0886ef3.png",
           "legenda": [
             {
               "label": "Jembatan Kalagian dan akses dermaga",
               "warna": "#f59dd1"
             }
+          ],
+          "batas": [
+            [
+              -5.644920794558292,
+              105.17090957488722
+            ],
+            [
+              -5.608952028406734,
+              105.2160692877598
+            ]
+          ],
+          "ukuran_px": [
+            596,
+            477
           ]
         },
         {
           "nama": "Dermaga dan struktur perairan",
           "jenis_sumber": "vektor",
           "crs_asli": "EPSG:32748",
-          "aset": "layer-14cf0a091b878d164a5820dc.png",
+          "aset": "layer-72b0043fc38c96cb79facab4.png",
           "legenda": [
             {
               "label": "Dermaga dan struktur perairan",
               "warna": "#dfa7ea"
             }
+          ],
+          "batas": [
+            [
+              -5.620640236165315,
+              105.18901892283444
+            ],
+            [
+              -5.576600866143808,
+              105.21652391574173
+            ]
+          ],
+          "ukuran_px": [
+            363,
+            584
           ]
         },
         {
           "nama": "Footprint simbol bangunan",
           "jenis_sumber": "vektor",
           "crs_asli": "EPSG:32748",
-          "aset": "layer-8d899515de9f2e7d19358e1b.png",
+          "aset": "layer-5e8906150932e5def2a9594f.png",
           "legenda": [
             {
               "label": "Footprint simbol bangunan",
               "warna": "#ffdb80"
             }
+          ],
+          "batas": [
+            [
+              -5.63692792778641,
+              105.1564372507955
+            ],
+            [
+              -5.565062607021489,
+              105.2377398882322
+            ]
+          ],
+          "ukuran_px": [
+            1073,
+            953
           ]
         },
         {
           "nama": "Jejak jalan dan koridor",
           "jenis_sumber": "vektor",
           "crs_asli": "EPSG:32748",
-          "aset": "layer-ce3018596155a084bc73c760.png",
+          "aset": "layer-b51574d04ae5bb9142fc3054.png",
           "legenda": [
             {
               "label": "Jejak jalan dan koridor",
               "warna": "#ffb55b"
             }
+          ],
+          "batas": [
+            [
+              -5.657814715189146,
+              105.14992091638773
+            ],
+            [
+              -5.559783589424353,
+              105.24251348204254
+            ]
+          ],
+          "ukuran_px": [
+            1222,
+            1300
           ]
         },
         {
           "nama": "Jejak garis merah - daratan dan Piabung",
           "jenis_sumber": "vektor",
           "crs_asli": "EPSG:32748",
-          "aset": "layer-f1c2fa8ac8e62058d71f2386.png",
+          "aset": "layer-8df8bc2bfac3593e6b2df647.png",
           "legenda": [
             {
               "label": "Jejak garis merah - daratan dan Piabung",
               "warna": "#0000ff"
             }
+          ],
+          "batas": [
+            [
+              -5.618679649939698,
+              105.15014823037869
+            ],
+            [
+              -5.561291884999619,
+              105.22501030473792
+            ]
+          ],
+          "ukuran_px": [
+            988,
+            761
           ]
         },
         {
           "nama": "Cakupan gambar Kalagian",
           "jenis_sumber": "vektor",
           "crs_asli": "EPSG:32748",
-          "aset": "layer-895835db7276841f0ddbc79a.png",
+          "aset": "layer-69479f51208bcef07f91f640.png",
           "legenda": [
             {
               "label": "Cakupan gambar Kalagian",
               "warna": "#0000ff"
             }
+          ],
+          "batas": [
+            [
+              -5.641753822785168,
+              105.21159877927072
+            ],
+            [
+              -5.617397724608051,
+              105.24251348204254
+            ]
+          ],
+          "ukuran_px": [
+            408,
+            323
           ]
         },
         {
           "nama": "Blok fasilitas dan perkerasan",
           "jenis_sumber": "vektor",
           "crs_asli": "EPSG:32748",
-          "aset": "layer-57a45e5ac5ab383e1df9c88b.png",
+          "aset": "layer-6837159e7fa9caee7c61ae0c.png",
           "legenda": [
             {
               "label": "Blok fasilitas dan perkerasan",
               "warna": "#0000ff"
             }
+          ],
+          "batas": [
+            [
+              -5.637983595746788,
+              105.1571191927684
+            ],
+            [
+              -5.564610121655202,
+              105.2400887994722
+            ]
+          ],
+          "ukuran_px": [
+            1095,
+            973
           ]
         },
         {
           "nama": "Jejak kontur batimetri",
           "jenis_sumber": "vektor",
           "crs_asli": "EPSG:32748",
-          "aset": "layer-ddf2ae987cc1ac094c8806e2.png",
+          "aset": "layer-8cf14f4f077394b2c508179d.png",
           "legenda": [
             {
               "label": "Jejak kontur batimetri",
               "warna": "#9bdaf5"
             }
+          ],
+          "batas": [
+            [
+              -5.61076183074883,
+              105.17000031892336
+            ],
+            [
+              -5.579164892933805,
+              105.21902436964238
+            ]
+          ],
+          "ukuran_px": [
+            647,
+            419
           ]
         },
         {
@@ -5150,96 +6998,208 @@ const katalogPeta = {
           "nama": "Jembatan Kalagian dan akses dermaga",
           "jenis_sumber": "vektor",
           "crs_asli": "EPSG:32748",
-          "aset": "layer-1dac4413c3f71a97ca59c2a5.png",
+          "aset": "layer-6ef327ec953e1f33c0886ef3.png",
           "legenda": [
             {
               "label": "Jembatan Kalagian dan akses dermaga",
               "warna": "#f59dd1"
             }
+          ],
+          "batas": [
+            [
+              -5.644920794558292,
+              105.17090957488722
+            ],
+            [
+              -5.608952028406734,
+              105.2160692877598
+            ]
+          ],
+          "ukuran_px": [
+            596,
+            477
           ]
         },
         {
           "nama": "Dermaga dan struktur perairan",
           "jenis_sumber": "vektor",
           "crs_asli": "EPSG:32748",
-          "aset": "layer-14cf0a091b878d164a5820dc.png",
+          "aset": "layer-72b0043fc38c96cb79facab4.png",
           "legenda": [
             {
               "label": "Dermaga dan struktur perairan",
               "warna": "#dfa7ea"
             }
+          ],
+          "batas": [
+            [
+              -5.620640236165315,
+              105.18901892283444
+            ],
+            [
+              -5.576600866143808,
+              105.21652391574173
+            ]
+          ],
+          "ukuran_px": [
+            363,
+            584
           ]
         },
         {
           "nama": "Footprint simbol bangunan",
           "jenis_sumber": "vektor",
           "crs_asli": "EPSG:32748",
-          "aset": "layer-8d899515de9f2e7d19358e1b.png",
+          "aset": "layer-5e8906150932e5def2a9594f.png",
           "legenda": [
             {
               "label": "Footprint simbol bangunan",
               "warna": "#ffdb80"
             }
+          ],
+          "batas": [
+            [
+              -5.63692792778641,
+              105.1564372507955
+            ],
+            [
+              -5.565062607021489,
+              105.2377398882322
+            ]
+          ],
+          "ukuran_px": [
+            1073,
+            953
           ]
         },
         {
           "nama": "Jejak jalan dan koridor",
           "jenis_sumber": "vektor",
           "crs_asli": "EPSG:32748",
-          "aset": "layer-ce3018596155a084bc73c760.png",
+          "aset": "layer-b51574d04ae5bb9142fc3054.png",
           "legenda": [
             {
               "label": "Jejak jalan dan koridor",
               "warna": "#ffb55b"
             }
+          ],
+          "batas": [
+            [
+              -5.657814715189146,
+              105.14992091638773
+            ],
+            [
+              -5.559783589424353,
+              105.24251348204254
+            ]
+          ],
+          "ukuran_px": [
+            1222,
+            1300
           ]
         },
         {
           "nama": "Jejak garis merah - daratan dan Piabung",
           "jenis_sumber": "vektor",
           "crs_asli": "EPSG:32748",
-          "aset": "layer-f1c2fa8ac8e62058d71f2386.png",
+          "aset": "layer-8df8bc2bfac3593e6b2df647.png",
           "legenda": [
             {
               "label": "Jejak garis merah - daratan dan Piabung",
               "warna": "#0000ff"
             }
+          ],
+          "batas": [
+            [
+              -5.618679649939698,
+              105.15014823037869
+            ],
+            [
+              -5.561291884999619,
+              105.22501030473792
+            ]
+          ],
+          "ukuran_px": [
+            988,
+            761
           ]
         },
         {
           "nama": "Cakupan gambar Kalagian",
           "jenis_sumber": "vektor",
           "crs_asli": "EPSG:32748",
-          "aset": "layer-895835db7276841f0ddbc79a.png",
+          "aset": "layer-69479f51208bcef07f91f640.png",
           "legenda": [
             {
               "label": "Cakupan gambar Kalagian",
               "warna": "#0000ff"
             }
+          ],
+          "batas": [
+            [
+              -5.641753822785168,
+              105.21159877927072
+            ],
+            [
+              -5.617397724608051,
+              105.24251348204254
+            ]
+          ],
+          "ukuran_px": [
+            408,
+            323
           ]
         },
         {
           "nama": "Blok fasilitas dan perkerasan",
           "jenis_sumber": "vektor",
           "crs_asli": "EPSG:32748",
-          "aset": "layer-57a45e5ac5ab383e1df9c88b.png",
+          "aset": "layer-6837159e7fa9caee7c61ae0c.png",
           "legenda": [
             {
               "label": "Blok fasilitas dan perkerasan",
               "warna": "#0000ff"
             }
+          ],
+          "batas": [
+            [
+              -5.637983595746788,
+              105.1571191927684
+            ],
+            [
+              -5.564610121655202,
+              105.2400887994722
+            ]
+          ],
+          "ukuran_px": [
+            1095,
+            973
           ]
         },
         {
           "nama": "Jejak kontur batimetri",
           "jenis_sumber": "vektor",
           "crs_asli": "EPSG:32748",
-          "aset": "layer-ddf2ae987cc1ac094c8806e2.png",
+          "aset": "layer-8cf14f4f077394b2c508179d.png",
           "legenda": [
             {
               "label": "Jejak kontur batimetri",
               "warna": "#9bdaf5"
             }
+          ],
+          "batas": [
+            [
+              -5.61076183074883,
+              105.17000031892336
+            ],
+            [
+              -5.579164892933805,
+              105.21902436964238
+            ]
+          ],
+          "ukuran_px": [
+            647,
+            419
           ]
         },
         {
@@ -5426,96 +7386,208 @@ const katalogPeta = {
           "nama": "Jembatan Kalagian dan akses dermaga",
           "jenis_sumber": "vektor",
           "crs_asli": "EPSG:32748",
-          "aset": "layer-1dac4413c3f71a97ca59c2a5.png",
+          "aset": "layer-6ef327ec953e1f33c0886ef3.png",
           "legenda": [
             {
               "label": "Jembatan Kalagian dan akses dermaga",
               "warna": "#f59dd1"
             }
+          ],
+          "batas": [
+            [
+              -5.644920794558292,
+              105.17090957488722
+            ],
+            [
+              -5.608952028406734,
+              105.2160692877598
+            ]
+          ],
+          "ukuran_px": [
+            596,
+            477
           ]
         },
         {
           "nama": "Dermaga dan struktur perairan",
           "jenis_sumber": "vektor",
           "crs_asli": "EPSG:32748",
-          "aset": "layer-14cf0a091b878d164a5820dc.png",
+          "aset": "layer-72b0043fc38c96cb79facab4.png",
           "legenda": [
             {
               "label": "Dermaga dan struktur perairan",
               "warna": "#dfa7ea"
             }
+          ],
+          "batas": [
+            [
+              -5.620640236165315,
+              105.18901892283444
+            ],
+            [
+              -5.576600866143808,
+              105.21652391574173
+            ]
+          ],
+          "ukuran_px": [
+            363,
+            584
           ]
         },
         {
           "nama": "Footprint simbol bangunan",
           "jenis_sumber": "vektor",
           "crs_asli": "EPSG:32748",
-          "aset": "layer-8d899515de9f2e7d19358e1b.png",
+          "aset": "layer-5e8906150932e5def2a9594f.png",
           "legenda": [
             {
               "label": "Footprint simbol bangunan",
               "warna": "#ffdb80"
             }
+          ],
+          "batas": [
+            [
+              -5.63692792778641,
+              105.1564372507955
+            ],
+            [
+              -5.565062607021489,
+              105.2377398882322
+            ]
+          ],
+          "ukuran_px": [
+            1073,
+            953
           ]
         },
         {
           "nama": "Jejak jalan dan koridor",
           "jenis_sumber": "vektor",
           "crs_asli": "EPSG:32748",
-          "aset": "layer-ce3018596155a084bc73c760.png",
+          "aset": "layer-b51574d04ae5bb9142fc3054.png",
           "legenda": [
             {
               "label": "Jejak jalan dan koridor",
               "warna": "#ffb55b"
             }
+          ],
+          "batas": [
+            [
+              -5.657814715189146,
+              105.14992091638773
+            ],
+            [
+              -5.559783589424353,
+              105.24251348204254
+            ]
+          ],
+          "ukuran_px": [
+            1222,
+            1300
           ]
         },
         {
           "nama": "Jejak garis merah - daratan dan Piabung",
           "jenis_sumber": "vektor",
           "crs_asli": "EPSG:32748",
-          "aset": "layer-f1c2fa8ac8e62058d71f2386.png",
+          "aset": "layer-8df8bc2bfac3593e6b2df647.png",
           "legenda": [
             {
               "label": "Jejak garis merah - daratan dan Piabung",
               "warna": "#0000ff"
             }
+          ],
+          "batas": [
+            [
+              -5.618679649939698,
+              105.15014823037869
+            ],
+            [
+              -5.561291884999619,
+              105.22501030473792
+            ]
+          ],
+          "ukuran_px": [
+            988,
+            761
           ]
         },
         {
           "nama": "Cakupan gambar Kalagian",
           "jenis_sumber": "vektor",
           "crs_asli": "EPSG:32748",
-          "aset": "layer-895835db7276841f0ddbc79a.png",
+          "aset": "layer-69479f51208bcef07f91f640.png",
           "legenda": [
             {
               "label": "Cakupan gambar Kalagian",
               "warna": "#0000ff"
             }
+          ],
+          "batas": [
+            [
+              -5.641753822785168,
+              105.21159877927072
+            ],
+            [
+              -5.617397724608051,
+              105.24251348204254
+            ]
+          ],
+          "ukuran_px": [
+            408,
+            323
           ]
         },
         {
           "nama": "Blok fasilitas dan perkerasan",
           "jenis_sumber": "vektor",
           "crs_asli": "EPSG:32748",
-          "aset": "layer-57a45e5ac5ab383e1df9c88b.png",
+          "aset": "layer-6837159e7fa9caee7c61ae0c.png",
           "legenda": [
             {
               "label": "Blok fasilitas dan perkerasan",
               "warna": "#0000ff"
             }
+          ],
+          "batas": [
+            [
+              -5.637983595746788,
+              105.1571191927684
+            ],
+            [
+              -5.564610121655202,
+              105.2400887994722
+            ]
+          ],
+          "ukuran_px": [
+            1095,
+            973
           ]
         },
         {
           "nama": "Jejak kontur batimetri",
           "jenis_sumber": "vektor",
           "crs_asli": "EPSG:32748",
-          "aset": "layer-ddf2ae987cc1ac094c8806e2.png",
+          "aset": "layer-8cf14f4f077394b2c508179d.png",
           "legenda": [
             {
               "label": "Jejak kontur batimetri",
               "warna": "#9bdaf5"
             }
+          ],
+          "batas": [
+            [
+              -5.61076183074883,
+              105.17000031892336
+            ],
+            [
+              -5.579164892933805,
+              105.21902436964238
+            ]
+          ],
+          "ukuran_px": [
+            647,
+            419
           ]
         },
         {
@@ -5711,96 +7783,208 @@ const katalogPeta = {
           "nama": "Jembatan Kalagian dan akses dermaga",
           "jenis_sumber": "vektor",
           "crs_asli": "EPSG:32748",
-          "aset": "layer-1dac4413c3f71a97ca59c2a5.png",
+          "aset": "layer-6ef327ec953e1f33c0886ef3.png",
           "legenda": [
             {
               "label": "Jembatan Kalagian dan akses dermaga",
               "warna": "#f59dd1"
             }
+          ],
+          "batas": [
+            [
+              -5.644920794558292,
+              105.17090957488722
+            ],
+            [
+              -5.608952028406734,
+              105.2160692877598
+            ]
+          ],
+          "ukuran_px": [
+            596,
+            477
           ]
         },
         {
           "nama": "Dermaga dan struktur perairan",
           "jenis_sumber": "vektor",
           "crs_asli": "EPSG:32748",
-          "aset": "layer-14cf0a091b878d164a5820dc.png",
+          "aset": "layer-72b0043fc38c96cb79facab4.png",
           "legenda": [
             {
               "label": "Dermaga dan struktur perairan",
               "warna": "#dfa7ea"
             }
+          ],
+          "batas": [
+            [
+              -5.620640236165315,
+              105.18901892283444
+            ],
+            [
+              -5.576600866143808,
+              105.21652391574173
+            ]
+          ],
+          "ukuran_px": [
+            363,
+            584
           ]
         },
         {
           "nama": "Footprint simbol bangunan",
           "jenis_sumber": "vektor",
           "crs_asli": "EPSG:32748",
-          "aset": "layer-8d899515de9f2e7d19358e1b.png",
+          "aset": "layer-5e8906150932e5def2a9594f.png",
           "legenda": [
             {
               "label": "Footprint simbol bangunan",
               "warna": "#ffdb80"
             }
+          ],
+          "batas": [
+            [
+              -5.63692792778641,
+              105.1564372507955
+            ],
+            [
+              -5.565062607021489,
+              105.2377398882322
+            ]
+          ],
+          "ukuran_px": [
+            1073,
+            953
           ]
         },
         {
           "nama": "Jejak jalan dan koridor",
           "jenis_sumber": "vektor",
           "crs_asli": "EPSG:32748",
-          "aset": "layer-ce3018596155a084bc73c760.png",
+          "aset": "layer-b51574d04ae5bb9142fc3054.png",
           "legenda": [
             {
               "label": "Jejak jalan dan koridor",
               "warna": "#ffb55b"
             }
+          ],
+          "batas": [
+            [
+              -5.657814715189146,
+              105.14992091638773
+            ],
+            [
+              -5.559783589424353,
+              105.24251348204254
+            ]
+          ],
+          "ukuran_px": [
+            1222,
+            1300
           ]
         },
         {
           "nama": "Jejak garis merah - daratan dan Piabung",
           "jenis_sumber": "vektor",
           "crs_asli": "EPSG:32748",
-          "aset": "layer-f1c2fa8ac8e62058d71f2386.png",
+          "aset": "layer-8df8bc2bfac3593e6b2df647.png",
           "legenda": [
             {
               "label": "Jejak garis merah - daratan dan Piabung",
               "warna": "#0000ff"
             }
+          ],
+          "batas": [
+            [
+              -5.618679649939698,
+              105.15014823037869
+            ],
+            [
+              -5.561291884999619,
+              105.22501030473792
+            ]
+          ],
+          "ukuran_px": [
+            988,
+            761
           ]
         },
         {
           "nama": "Cakupan gambar Kalagian",
           "jenis_sumber": "vektor",
           "crs_asli": "EPSG:32748",
-          "aset": "layer-895835db7276841f0ddbc79a.png",
+          "aset": "layer-69479f51208bcef07f91f640.png",
           "legenda": [
             {
               "label": "Cakupan gambar Kalagian",
               "warna": "#0000ff"
             }
+          ],
+          "batas": [
+            [
+              -5.641753822785168,
+              105.21159877927072
+            ],
+            [
+              -5.617397724608051,
+              105.24251348204254
+            ]
+          ],
+          "ukuran_px": [
+            408,
+            323
           ]
         },
         {
           "nama": "Blok fasilitas dan perkerasan",
           "jenis_sumber": "vektor",
           "crs_asli": "EPSG:32748",
-          "aset": "layer-57a45e5ac5ab383e1df9c88b.png",
+          "aset": "layer-6837159e7fa9caee7c61ae0c.png",
           "legenda": [
             {
               "label": "Blok fasilitas dan perkerasan",
               "warna": "#0000ff"
             }
+          ],
+          "batas": [
+            [
+              -5.637983595746788,
+              105.1571191927684
+            ],
+            [
+              -5.564610121655202,
+              105.2400887994722
+            ]
+          ],
+          "ukuran_px": [
+            1095,
+            973
           ]
         },
         {
           "nama": "Jejak kontur batimetri",
           "jenis_sumber": "vektor",
           "crs_asli": "EPSG:32748",
-          "aset": "layer-ddf2ae987cc1ac094c8806e2.png",
+          "aset": "layer-8cf14f4f077394b2c508179d.png",
           "legenda": [
             {
               "label": "Jejak kontur batimetri",
               "warna": "#9bdaf5"
             }
+          ],
+          "batas": [
+            [
+              -5.61076183074883,
+              105.17000031892336
+            ],
+            [
+              -5.579164892933805,
+              105.21902436964238
+            ]
+          ],
+          "ukuran_px": [
+            647,
+            419
           ]
         },
         {
@@ -6006,96 +8190,208 @@ const katalogPeta = {
           "nama": "Jembatan Kalagian dan akses dermaga",
           "jenis_sumber": "vektor",
           "crs_asli": "EPSG:32748",
-          "aset": "layer-1dac4413c3f71a97ca59c2a5.png",
+          "aset": "layer-6ef327ec953e1f33c0886ef3.png",
           "legenda": [
             {
               "label": "Jembatan Kalagian dan akses dermaga",
               "warna": "#f59dd1"
             }
+          ],
+          "batas": [
+            [
+              -5.644920794558292,
+              105.17090957488722
+            ],
+            [
+              -5.608952028406734,
+              105.2160692877598
+            ]
+          ],
+          "ukuran_px": [
+            596,
+            477
           ]
         },
         {
           "nama": "Dermaga dan struktur perairan",
           "jenis_sumber": "vektor",
           "crs_asli": "EPSG:32748",
-          "aset": "layer-14cf0a091b878d164a5820dc.png",
+          "aset": "layer-72b0043fc38c96cb79facab4.png",
           "legenda": [
             {
               "label": "Dermaga dan struktur perairan",
               "warna": "#dfa7ea"
             }
+          ],
+          "batas": [
+            [
+              -5.620640236165315,
+              105.18901892283444
+            ],
+            [
+              -5.576600866143808,
+              105.21652391574173
+            ]
+          ],
+          "ukuran_px": [
+            363,
+            584
           ]
         },
         {
           "nama": "Footprint simbol bangunan",
           "jenis_sumber": "vektor",
           "crs_asli": "EPSG:32748",
-          "aset": "layer-8d899515de9f2e7d19358e1b.png",
+          "aset": "layer-5e8906150932e5def2a9594f.png",
           "legenda": [
             {
               "label": "Footprint simbol bangunan",
               "warna": "#ffdb80"
             }
+          ],
+          "batas": [
+            [
+              -5.63692792778641,
+              105.1564372507955
+            ],
+            [
+              -5.565062607021489,
+              105.2377398882322
+            ]
+          ],
+          "ukuran_px": [
+            1073,
+            953
           ]
         },
         {
           "nama": "Jejak jalan dan koridor",
           "jenis_sumber": "vektor",
           "crs_asli": "EPSG:32748",
-          "aset": "layer-ce3018596155a084bc73c760.png",
+          "aset": "layer-b51574d04ae5bb9142fc3054.png",
           "legenda": [
             {
               "label": "Jejak jalan dan koridor",
               "warna": "#ffb55b"
             }
+          ],
+          "batas": [
+            [
+              -5.657814715189146,
+              105.14992091638773
+            ],
+            [
+              -5.559783589424353,
+              105.24251348204254
+            ]
+          ],
+          "ukuran_px": [
+            1222,
+            1300
           ]
         },
         {
           "nama": "Jejak garis merah - daratan dan Piabung",
           "jenis_sumber": "vektor",
           "crs_asli": "EPSG:32748",
-          "aset": "layer-f1c2fa8ac8e62058d71f2386.png",
+          "aset": "layer-8df8bc2bfac3593e6b2df647.png",
           "legenda": [
             {
               "label": "Jejak garis merah - daratan dan Piabung",
               "warna": "#0000ff"
             }
+          ],
+          "batas": [
+            [
+              -5.618679649939698,
+              105.15014823037869
+            ],
+            [
+              -5.561291884999619,
+              105.22501030473792
+            ]
+          ],
+          "ukuran_px": [
+            988,
+            761
           ]
         },
         {
           "nama": "Cakupan gambar Kalagian",
           "jenis_sumber": "vektor",
           "crs_asli": "EPSG:32748",
-          "aset": "layer-895835db7276841f0ddbc79a.png",
+          "aset": "layer-69479f51208bcef07f91f640.png",
           "legenda": [
             {
               "label": "Cakupan gambar Kalagian",
               "warna": "#0000ff"
             }
+          ],
+          "batas": [
+            [
+              -5.641753822785168,
+              105.21159877927072
+            ],
+            [
+              -5.617397724608051,
+              105.24251348204254
+            ]
+          ],
+          "ukuran_px": [
+            408,
+            323
           ]
         },
         {
           "nama": "Blok fasilitas dan perkerasan",
           "jenis_sumber": "vektor",
           "crs_asli": "EPSG:32748",
-          "aset": "layer-57a45e5ac5ab383e1df9c88b.png",
+          "aset": "layer-6837159e7fa9caee7c61ae0c.png",
           "legenda": [
             {
               "label": "Blok fasilitas dan perkerasan",
               "warna": "#0000ff"
             }
+          ],
+          "batas": [
+            [
+              -5.637983595746788,
+              105.1571191927684
+            ],
+            [
+              -5.564610121655202,
+              105.2400887994722
+            ]
+          ],
+          "ukuran_px": [
+            1095,
+            973
           ]
         },
         {
           "nama": "Jejak kontur batimetri",
           "jenis_sumber": "vektor",
           "crs_asli": "EPSG:32748",
-          "aset": "layer-ddf2ae987cc1ac094c8806e2.png",
+          "aset": "layer-8cf14f4f077394b2c508179d.png",
           "legenda": [
             {
               "label": "Jejak kontur batimetri",
               "warna": "#9bdaf5"
             }
+          ],
+          "batas": [
+            [
+              -5.61076183074883,
+              105.17000031892336
+            ],
+            [
+              -5.579164892933805,
+              105.21902436964238
+            ]
+          ],
+          "ukuran_px": [
+            647,
+            419
           ]
         },
         {
@@ -6114,7 +8410,7 @@ const katalogPeta = {
           "nama": "Isolin PGA MCEG - interval 0,01 g",
           "jenis_sumber": "vektor",
           "crs_asli": "EPSG:4326",
-          "aset": "layer-7b04326ce781d7039c0ab473.png",
+          "aset": "layer-514b42fca1f8592ea0a61f05.webp",
           "legenda": [
             {
               "label": "Isolin PGA MCEG - interval 0,01 g",
@@ -6334,96 +8630,208 @@ const katalogPeta = {
           "nama": "Jembatan Kalagian dan akses dermaga",
           "jenis_sumber": "vektor",
           "crs_asli": "EPSG:32748",
-          "aset": "layer-1dac4413c3f71a97ca59c2a5.png",
+          "aset": "layer-6ef327ec953e1f33c0886ef3.png",
           "legenda": [
             {
               "label": "Jembatan Kalagian dan akses dermaga",
               "warna": "#f59dd1"
             }
+          ],
+          "batas": [
+            [
+              -5.644920794558292,
+              105.17090957488722
+            ],
+            [
+              -5.608952028406734,
+              105.2160692877598
+            ]
+          ],
+          "ukuran_px": [
+            596,
+            477
           ]
         },
         {
           "nama": "Dermaga dan struktur perairan",
           "jenis_sumber": "vektor",
           "crs_asli": "EPSG:32748",
-          "aset": "layer-14cf0a091b878d164a5820dc.png",
+          "aset": "layer-72b0043fc38c96cb79facab4.png",
           "legenda": [
             {
               "label": "Dermaga dan struktur perairan",
               "warna": "#dfa7ea"
             }
+          ],
+          "batas": [
+            [
+              -5.620640236165315,
+              105.18901892283444
+            ],
+            [
+              -5.576600866143808,
+              105.21652391574173
+            ]
+          ],
+          "ukuran_px": [
+            363,
+            584
           ]
         },
         {
           "nama": "Footprint simbol bangunan",
           "jenis_sumber": "vektor",
           "crs_asli": "EPSG:32748",
-          "aset": "layer-8d899515de9f2e7d19358e1b.png",
+          "aset": "layer-5e8906150932e5def2a9594f.png",
           "legenda": [
             {
               "label": "Footprint simbol bangunan",
               "warna": "#ffdb80"
             }
+          ],
+          "batas": [
+            [
+              -5.63692792778641,
+              105.1564372507955
+            ],
+            [
+              -5.565062607021489,
+              105.2377398882322
+            ]
+          ],
+          "ukuran_px": [
+            1073,
+            953
           ]
         },
         {
           "nama": "Jejak jalan dan koridor",
           "jenis_sumber": "vektor",
           "crs_asli": "EPSG:32748",
-          "aset": "layer-ce3018596155a084bc73c760.png",
+          "aset": "layer-b51574d04ae5bb9142fc3054.png",
           "legenda": [
             {
               "label": "Jejak jalan dan koridor",
               "warna": "#ffb55b"
             }
+          ],
+          "batas": [
+            [
+              -5.657814715189146,
+              105.14992091638773
+            ],
+            [
+              -5.559783589424353,
+              105.24251348204254
+            ]
+          ],
+          "ukuran_px": [
+            1222,
+            1300
           ]
         },
         {
           "nama": "Jejak garis merah - daratan dan Piabung",
           "jenis_sumber": "vektor",
           "crs_asli": "EPSG:32748",
-          "aset": "layer-f1c2fa8ac8e62058d71f2386.png",
+          "aset": "layer-8df8bc2bfac3593e6b2df647.png",
           "legenda": [
             {
               "label": "Jejak garis merah - daratan dan Piabung",
               "warna": "#0000ff"
             }
+          ],
+          "batas": [
+            [
+              -5.618679649939698,
+              105.15014823037869
+            ],
+            [
+              -5.561291884999619,
+              105.22501030473792
+            ]
+          ],
+          "ukuran_px": [
+            988,
+            761
           ]
         },
         {
           "nama": "Cakupan gambar Kalagian",
           "jenis_sumber": "vektor",
           "crs_asli": "EPSG:32748",
-          "aset": "layer-895835db7276841f0ddbc79a.png",
+          "aset": "layer-69479f51208bcef07f91f640.png",
           "legenda": [
             {
               "label": "Cakupan gambar Kalagian",
               "warna": "#0000ff"
             }
+          ],
+          "batas": [
+            [
+              -5.641753822785168,
+              105.21159877927072
+            ],
+            [
+              -5.617397724608051,
+              105.24251348204254
+            ]
+          ],
+          "ukuran_px": [
+            408,
+            323
           ]
         },
         {
           "nama": "Blok fasilitas dan perkerasan",
           "jenis_sumber": "vektor",
           "crs_asli": "EPSG:32748",
-          "aset": "layer-57a45e5ac5ab383e1df9c88b.png",
+          "aset": "layer-6837159e7fa9caee7c61ae0c.png",
           "legenda": [
             {
               "label": "Blok fasilitas dan perkerasan",
               "warna": "#0000ff"
             }
+          ],
+          "batas": [
+            [
+              -5.637983595746788,
+              105.1571191927684
+            ],
+            [
+              -5.564610121655202,
+              105.2400887994722
+            ]
+          ],
+          "ukuran_px": [
+            1095,
+            973
           ]
         },
         {
           "nama": "Jejak kontur batimetri",
           "jenis_sumber": "vektor",
           "crs_asli": "EPSG:32748",
-          "aset": "layer-ddf2ae987cc1ac094c8806e2.png",
+          "aset": "layer-8cf14f4f077394b2c508179d.png",
           "legenda": [
             {
               "label": "Jejak kontur batimetri",
               "warna": "#9bdaf5"
             }
+          ],
+          "batas": [
+            [
+              -5.61076183074883,
+              105.17000031892336
+            ],
+            [
+              -5.579164892933805,
+              105.21902436964238
+            ]
+          ],
+          "ukuran_px": [
+            647,
+            419
           ]
         },
         {
@@ -6637,96 +9045,208 @@ const katalogPeta = {
           "nama": "Jembatan Kalagian dan akses dermaga",
           "jenis_sumber": "vektor",
           "crs_asli": "EPSG:32748",
-          "aset": "layer-1dac4413c3f71a97ca59c2a5.png",
+          "aset": "layer-6ef327ec953e1f33c0886ef3.png",
           "legenda": [
             {
               "label": "Jembatan Kalagian dan akses dermaga",
               "warna": "#f59dd1"
             }
+          ],
+          "batas": [
+            [
+              -5.644920794558292,
+              105.17090957488722
+            ],
+            [
+              -5.608952028406734,
+              105.2160692877598
+            ]
+          ],
+          "ukuran_px": [
+            596,
+            477
           ]
         },
         {
           "nama": "Dermaga dan struktur perairan",
           "jenis_sumber": "vektor",
           "crs_asli": "EPSG:32748",
-          "aset": "layer-14cf0a091b878d164a5820dc.png",
+          "aset": "layer-72b0043fc38c96cb79facab4.png",
           "legenda": [
             {
               "label": "Dermaga dan struktur perairan",
               "warna": "#dfa7ea"
             }
+          ],
+          "batas": [
+            [
+              -5.620640236165315,
+              105.18901892283444
+            ],
+            [
+              -5.576600866143808,
+              105.21652391574173
+            ]
+          ],
+          "ukuran_px": [
+            363,
+            584
           ]
         },
         {
           "nama": "Footprint simbol bangunan",
           "jenis_sumber": "vektor",
           "crs_asli": "EPSG:32748",
-          "aset": "layer-8d899515de9f2e7d19358e1b.png",
+          "aset": "layer-5e8906150932e5def2a9594f.png",
           "legenda": [
             {
               "label": "Footprint simbol bangunan",
               "warna": "#ffdb80"
             }
+          ],
+          "batas": [
+            [
+              -5.63692792778641,
+              105.1564372507955
+            ],
+            [
+              -5.565062607021489,
+              105.2377398882322
+            ]
+          ],
+          "ukuran_px": [
+            1073,
+            953
           ]
         },
         {
           "nama": "Jejak jalan dan koridor",
           "jenis_sumber": "vektor",
           "crs_asli": "EPSG:32748",
-          "aset": "layer-ce3018596155a084bc73c760.png",
+          "aset": "layer-b51574d04ae5bb9142fc3054.png",
           "legenda": [
             {
               "label": "Jejak jalan dan koridor",
               "warna": "#ffb55b"
             }
+          ],
+          "batas": [
+            [
+              -5.657814715189146,
+              105.14992091638773
+            ],
+            [
+              -5.559783589424353,
+              105.24251348204254
+            ]
+          ],
+          "ukuran_px": [
+            1222,
+            1300
           ]
         },
         {
           "nama": "Jejak garis merah - daratan dan Piabung",
           "jenis_sumber": "vektor",
           "crs_asli": "EPSG:32748",
-          "aset": "layer-f1c2fa8ac8e62058d71f2386.png",
+          "aset": "layer-8df8bc2bfac3593e6b2df647.png",
           "legenda": [
             {
               "label": "Jejak garis merah - daratan dan Piabung",
               "warna": "#0000ff"
             }
+          ],
+          "batas": [
+            [
+              -5.618679649939698,
+              105.15014823037869
+            ],
+            [
+              -5.561291884999619,
+              105.22501030473792
+            ]
+          ],
+          "ukuran_px": [
+            988,
+            761
           ]
         },
         {
           "nama": "Cakupan gambar Kalagian",
           "jenis_sumber": "vektor",
           "crs_asli": "EPSG:32748",
-          "aset": "layer-895835db7276841f0ddbc79a.png",
+          "aset": "layer-69479f51208bcef07f91f640.png",
           "legenda": [
             {
               "label": "Cakupan gambar Kalagian",
               "warna": "#0000ff"
             }
+          ],
+          "batas": [
+            [
+              -5.641753822785168,
+              105.21159877927072
+            ],
+            [
+              -5.617397724608051,
+              105.24251348204254
+            ]
+          ],
+          "ukuran_px": [
+            408,
+            323
           ]
         },
         {
           "nama": "Blok fasilitas dan perkerasan",
           "jenis_sumber": "vektor",
           "crs_asli": "EPSG:32748",
-          "aset": "layer-57a45e5ac5ab383e1df9c88b.png",
+          "aset": "layer-6837159e7fa9caee7c61ae0c.png",
           "legenda": [
             {
               "label": "Blok fasilitas dan perkerasan",
               "warna": "#0000ff"
             }
+          ],
+          "batas": [
+            [
+              -5.637983595746788,
+              105.1571191927684
+            ],
+            [
+              -5.564610121655202,
+              105.2400887994722
+            ]
+          ],
+          "ukuran_px": [
+            1095,
+            973
           ]
         },
         {
           "nama": "Jejak kontur batimetri",
           "jenis_sumber": "vektor",
           "crs_asli": "EPSG:32748",
-          "aset": "layer-ddf2ae987cc1ac094c8806e2.png",
+          "aset": "layer-8cf14f4f077394b2c508179d.png",
           "legenda": [
             {
               "label": "Jejak kontur batimetri",
               "warna": "#9bdaf5"
             }
+          ],
+          "batas": [
+            [
+              -5.61076183074883,
+              105.17000031892336
+            ],
+            [
+              -5.579164892933805,
+              105.21902436964238
+            ]
+          ],
+          "ukuran_px": [
+            647,
+            419
           ]
         },
         {
@@ -6940,96 +9460,208 @@ const katalogPeta = {
           "nama": "Jembatan Kalagian dan akses dermaga",
           "jenis_sumber": "vektor",
           "crs_asli": "EPSG:32748",
-          "aset": "layer-1dac4413c3f71a97ca59c2a5.png",
+          "aset": "layer-6ef327ec953e1f33c0886ef3.png",
           "legenda": [
             {
               "label": "Jembatan Kalagian dan akses dermaga",
               "warna": "#f59dd1"
             }
+          ],
+          "batas": [
+            [
+              -5.644920794558292,
+              105.17090957488722
+            ],
+            [
+              -5.608952028406734,
+              105.2160692877598
+            ]
+          ],
+          "ukuran_px": [
+            596,
+            477
           ]
         },
         {
           "nama": "Dermaga dan struktur perairan",
           "jenis_sumber": "vektor",
           "crs_asli": "EPSG:32748",
-          "aset": "layer-14cf0a091b878d164a5820dc.png",
+          "aset": "layer-72b0043fc38c96cb79facab4.png",
           "legenda": [
             {
               "label": "Dermaga dan struktur perairan",
               "warna": "#dfa7ea"
             }
+          ],
+          "batas": [
+            [
+              -5.620640236165315,
+              105.18901892283444
+            ],
+            [
+              -5.576600866143808,
+              105.21652391574173
+            ]
+          ],
+          "ukuran_px": [
+            363,
+            584
           ]
         },
         {
           "nama": "Footprint simbol bangunan",
           "jenis_sumber": "vektor",
           "crs_asli": "EPSG:32748",
-          "aset": "layer-8d899515de9f2e7d19358e1b.png",
+          "aset": "layer-5e8906150932e5def2a9594f.png",
           "legenda": [
             {
               "label": "Footprint simbol bangunan",
               "warna": "#ffdb80"
             }
+          ],
+          "batas": [
+            [
+              -5.63692792778641,
+              105.1564372507955
+            ],
+            [
+              -5.565062607021489,
+              105.2377398882322
+            ]
+          ],
+          "ukuran_px": [
+            1073,
+            953
           ]
         },
         {
           "nama": "Jejak jalan dan koridor",
           "jenis_sumber": "vektor",
           "crs_asli": "EPSG:32748",
-          "aset": "layer-ce3018596155a084bc73c760.png",
+          "aset": "layer-b51574d04ae5bb9142fc3054.png",
           "legenda": [
             {
               "label": "Jejak jalan dan koridor",
               "warna": "#ffb55b"
             }
+          ],
+          "batas": [
+            [
+              -5.657814715189146,
+              105.14992091638773
+            ],
+            [
+              -5.559783589424353,
+              105.24251348204254
+            ]
+          ],
+          "ukuran_px": [
+            1222,
+            1300
           ]
         },
         {
           "nama": "Jejak garis merah - daratan dan Piabung",
           "jenis_sumber": "vektor",
           "crs_asli": "EPSG:32748",
-          "aset": "layer-f1c2fa8ac8e62058d71f2386.png",
+          "aset": "layer-8df8bc2bfac3593e6b2df647.png",
           "legenda": [
             {
               "label": "Jejak garis merah - daratan dan Piabung",
               "warna": "#0000ff"
             }
+          ],
+          "batas": [
+            [
+              -5.618679649939698,
+              105.15014823037869
+            ],
+            [
+              -5.561291884999619,
+              105.22501030473792
+            ]
+          ],
+          "ukuran_px": [
+            988,
+            761
           ]
         },
         {
           "nama": "Cakupan gambar Kalagian",
           "jenis_sumber": "vektor",
           "crs_asli": "EPSG:32748",
-          "aset": "layer-895835db7276841f0ddbc79a.png",
+          "aset": "layer-69479f51208bcef07f91f640.png",
           "legenda": [
             {
               "label": "Cakupan gambar Kalagian",
               "warna": "#0000ff"
             }
+          ],
+          "batas": [
+            [
+              -5.641753822785168,
+              105.21159877927072
+            ],
+            [
+              -5.617397724608051,
+              105.24251348204254
+            ]
+          ],
+          "ukuran_px": [
+            408,
+            323
           ]
         },
         {
           "nama": "Blok fasilitas dan perkerasan",
           "jenis_sumber": "vektor",
           "crs_asli": "EPSG:32748",
-          "aset": "layer-57a45e5ac5ab383e1df9c88b.png",
+          "aset": "layer-6837159e7fa9caee7c61ae0c.png",
           "legenda": [
             {
               "label": "Blok fasilitas dan perkerasan",
               "warna": "#0000ff"
             }
+          ],
+          "batas": [
+            [
+              -5.637983595746788,
+              105.1571191927684
+            ],
+            [
+              -5.564610121655202,
+              105.2400887994722
+            ]
+          ],
+          "ukuran_px": [
+            1095,
+            973
           ]
         },
         {
           "nama": "Jejak kontur batimetri",
           "jenis_sumber": "vektor",
           "crs_asli": "EPSG:32748",
-          "aset": "layer-ddf2ae987cc1ac094c8806e2.png",
+          "aset": "layer-8cf14f4f077394b2c508179d.png",
           "legenda": [
             {
               "label": "Jejak kontur batimetri",
               "warna": "#9bdaf5"
             }
+          ],
+          "batas": [
+            [
+              -5.61076183074883,
+              105.17000031892336
+            ],
+            [
+              -5.579164892933805,
+              105.21902436964238
+            ]
+          ],
+          "ukuran_px": [
+            647,
+            419
           ]
         },
         {
@@ -7243,96 +9875,208 @@ const katalogPeta = {
           "nama": "Jembatan Kalagian dan akses dermaga",
           "jenis_sumber": "vektor",
           "crs_asli": "EPSG:32748",
-          "aset": "layer-1dac4413c3f71a97ca59c2a5.png",
+          "aset": "layer-6ef327ec953e1f33c0886ef3.png",
           "legenda": [
             {
               "label": "Jembatan Kalagian dan akses dermaga",
               "warna": "#f59dd1"
             }
+          ],
+          "batas": [
+            [
+              -5.644920794558292,
+              105.17090957488722
+            ],
+            [
+              -5.608952028406734,
+              105.2160692877598
+            ]
+          ],
+          "ukuran_px": [
+            596,
+            477
           ]
         },
         {
           "nama": "Dermaga dan struktur perairan",
           "jenis_sumber": "vektor",
           "crs_asli": "EPSG:32748",
-          "aset": "layer-14cf0a091b878d164a5820dc.png",
+          "aset": "layer-72b0043fc38c96cb79facab4.png",
           "legenda": [
             {
               "label": "Dermaga dan struktur perairan",
               "warna": "#dfa7ea"
             }
+          ],
+          "batas": [
+            [
+              -5.620640236165315,
+              105.18901892283444
+            ],
+            [
+              -5.576600866143808,
+              105.21652391574173
+            ]
+          ],
+          "ukuran_px": [
+            363,
+            584
           ]
         },
         {
           "nama": "Footprint simbol bangunan",
           "jenis_sumber": "vektor",
           "crs_asli": "EPSG:32748",
-          "aset": "layer-8d899515de9f2e7d19358e1b.png",
+          "aset": "layer-5e8906150932e5def2a9594f.png",
           "legenda": [
             {
               "label": "Footprint simbol bangunan",
               "warna": "#ffdb80"
             }
+          ],
+          "batas": [
+            [
+              -5.63692792778641,
+              105.1564372507955
+            ],
+            [
+              -5.565062607021489,
+              105.2377398882322
+            ]
+          ],
+          "ukuran_px": [
+            1073,
+            953
           ]
         },
         {
           "nama": "Jejak jalan dan koridor",
           "jenis_sumber": "vektor",
           "crs_asli": "EPSG:32748",
-          "aset": "layer-ce3018596155a084bc73c760.png",
+          "aset": "layer-b51574d04ae5bb9142fc3054.png",
           "legenda": [
             {
               "label": "Jejak jalan dan koridor",
               "warna": "#ffb55b"
             }
+          ],
+          "batas": [
+            [
+              -5.657814715189146,
+              105.14992091638773
+            ],
+            [
+              -5.559783589424353,
+              105.24251348204254
+            ]
+          ],
+          "ukuran_px": [
+            1222,
+            1300
           ]
         },
         {
           "nama": "Jejak garis merah - daratan dan Piabung",
           "jenis_sumber": "vektor",
           "crs_asli": "EPSG:32748",
-          "aset": "layer-f1c2fa8ac8e62058d71f2386.png",
+          "aset": "layer-8df8bc2bfac3593e6b2df647.png",
           "legenda": [
             {
               "label": "Jejak garis merah - daratan dan Piabung",
               "warna": "#0000ff"
             }
+          ],
+          "batas": [
+            [
+              -5.618679649939698,
+              105.15014823037869
+            ],
+            [
+              -5.561291884999619,
+              105.22501030473792
+            ]
+          ],
+          "ukuran_px": [
+            988,
+            761
           ]
         },
         {
           "nama": "Cakupan gambar Kalagian",
           "jenis_sumber": "vektor",
           "crs_asli": "EPSG:32748",
-          "aset": "layer-895835db7276841f0ddbc79a.png",
+          "aset": "layer-69479f51208bcef07f91f640.png",
           "legenda": [
             {
               "label": "Cakupan gambar Kalagian",
               "warna": "#0000ff"
             }
+          ],
+          "batas": [
+            [
+              -5.641753822785168,
+              105.21159877927072
+            ],
+            [
+              -5.617397724608051,
+              105.24251348204254
+            ]
+          ],
+          "ukuran_px": [
+            408,
+            323
           ]
         },
         {
           "nama": "Blok fasilitas dan perkerasan",
           "jenis_sumber": "vektor",
           "crs_asli": "EPSG:32748",
-          "aset": "layer-57a45e5ac5ab383e1df9c88b.png",
+          "aset": "layer-6837159e7fa9caee7c61ae0c.png",
           "legenda": [
             {
               "label": "Blok fasilitas dan perkerasan",
               "warna": "#0000ff"
             }
+          ],
+          "batas": [
+            [
+              -5.637983595746788,
+              105.1571191927684
+            ],
+            [
+              -5.564610121655202,
+              105.2400887994722
+            ]
+          ],
+          "ukuran_px": [
+            1095,
+            973
           ]
         },
         {
           "nama": "Jejak kontur batimetri",
           "jenis_sumber": "vektor",
           "crs_asli": "EPSG:32748",
-          "aset": "layer-ddf2ae987cc1ac094c8806e2.png",
+          "aset": "layer-8cf14f4f077394b2c508179d.png",
           "legenda": [
             {
               "label": "Jejak kontur batimetri",
               "warna": "#9bdaf5"
             }
+          ],
+          "batas": [
+            [
+              -5.61076183074883,
+              105.17000031892336
+            ],
+            [
+              -5.579164892933805,
+              105.21902436964238
+            ]
+          ],
+          "ukuran_px": [
+            647,
+            419
           ]
         },
         {
@@ -7558,12 +10302,26 @@ const katalogPeta = {
           "nama": "Garis pantai OSM",
           "jenis_sumber": "vektor",
           "crs_asli": "EPSG:4326",
-          "aset": "layer-6b67b6f52356bb78c6292262.png",
+          "aset": "layer-08f384ac70de84a34a34e9ee.png",
           "legenda": [
             {
               "label": "Garis pantai OSM",
               "warna": "#6ad9df"
             }
+          ],
+          "batas": [
+            [
+              -5.660050828111253,
+              105.16672808507617
+            ],
+            [
+              -5.541128871656417,
+              105.25886679361138
+            ]
+          ],
+          "ukuran_px": [
+            1216,
+            1577
           ]
         },
         {

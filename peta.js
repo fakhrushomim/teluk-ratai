@@ -37,7 +37,7 @@ function tampilkanPeta() {
 
   function pilihPeta() {
     const peta = katalogPeta.peta[Number(pilihan.value)];
-    overlay.clearLayers();
+    const previous = new Map(aktif.map(({key, image}) => [key, image]));
     daftarLayer.replaceChildren();
     mapStatus.textContent = "";
     bounds = L.latLngBounds(peta.batas);
@@ -47,16 +47,24 @@ function tampilkanPeta() {
     note.hidden = !note.textContent;
 
     aktif = peta.layer.map((layer, index) => {
-      const image = L.imageOverlay(layer.aset, bounds, {
+      const imageBounds = layer.batas || peta.batas;
+      const key = JSON.stringify([layer.aset, layer.nama, imageBounds]);
+      const reused = previous.get(key);
+      previous.delete(key);
+      const image = reused || L.imageOverlay(layer.aset, imageBounds, {
         alt: "",
         zIndex: peta.layer.length - index,
         attribution: layer.nama.includes("Detect Change") && source.sumber === "Google Earth Detect Change"
           ? "Google Earth Detect Change"
           : (/OSM|OpenStreetMap/i.test(layer.nama) ? "© OpenStreetMap contributors" : undefined),
       });
-      image.on("error", () => {
-        if (overlay.hasLayer(image)) mapStatus.textContent = `Gagal memuat layer ${layer.nama}.`;
-      });
+      if (reused) {
+        image.setZIndex(peta.layer.length - index);
+      } else {
+        image.on("error", () => {
+          if (overlay.hasLayer(image)) mapStatus.textContent = `Gagal memuat layer ${layer.nama}.`;
+        });
+      }
       const baris = document.createElement("div");
       baris.className = "layer-row";
       const label = document.createElement("label");
@@ -77,12 +85,13 @@ function tampilkanPeta() {
       if (opacity) baris.append(opacity.details);
       daftarLayer.append(baris);
       overlay.addLayer(image);
-      return {input, image, opacity};
+      return {key, input, image, opacity};
     });
 
+    for (const image of previous.values()) overlay.removeLayer(image);
     updateCount();
     const ringkasan = document.createElement("p");
-    ringkasan.textContent = `${peta.layer.length} layer · ${peta.crs_web} · ${peta.ukuran_px.join(" × ")} piksel per overlay`;
+    ringkasan.textContent = `${peta.layer.length} layer · ${peta.crs_web} · ${peta.ukuran_px.join(" × ")} piksel cakupan peta`;
     metadata.replaceChildren(ringkasan);
     lihatSeluruhArea();
   }

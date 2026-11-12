@@ -25,7 +25,7 @@ function tampilkanPeta() {
     pilihan.add(new Option(peta.judul, i));
   }
 
-  function cakupanAwal() {
+  function lihatSeluruhArea() {
     map.fitBounds(bounds, {padding: [15, 15]});
   }
 
@@ -73,9 +73,11 @@ function tampilkanPeta() {
       label.append(layer.nama);
       baris.append(label);
       if (layer.legenda.length > 1) baris.append(legenda(layer.legenda));
+      const opacity = layer.jenis_sumber === "raster" ? opacityControl(layer.nama, image) : null;
+      if (opacity) baris.append(opacity.details);
       daftarLayer.append(baris);
       overlay.addLayer(image);
-      return {input, image};
+      return {input, image, opacity};
     });
 
     updateCount();
@@ -88,18 +90,26 @@ function tampilkanPeta() {
     pre.textContent = JSON.stringify(peta.metadata_qgis, null, 2);
     details.append(summary, pre);
     metadata.replaceChildren(ringkasan, details);
-    cakupanAwal();
+    lihatSeluruhArea();
   }
 
   pilihan.addEventListener("change", pilihPeta);
-  document.querySelector("#pulihkan").addEventListener("click", () => {
+  document.querySelector("#sembunyikan").addEventListener("click", () => {
     for (const {input, image} of aktif) {
+      input.checked = false;
+      overlay.removeLayer(image);
+    }
+    updateCount();
+  });
+  document.querySelector("#pulihkan").addEventListener("click", () => {
+    for (const {input, image, opacity} of aktif) {
       input.checked = true;
+      opacity?.reset();
       overlay.addLayer(image);
     }
     updateCount();
   });
-  document.querySelector("#cakupan").addEventListener("click", cakupanAwal);
+  document.querySelector("#cakupan").addEventListener("click", lihatSeluruhArea);
   pilihPeta();
 }
 
@@ -124,4 +134,36 @@ function legenda(items) {
   }
   details.append(summary, list);
   return details;
+}
+
+function opacityControl(name, image) {
+  const details = document.createElement("details");
+  details.className = "opacity";
+  const summary = document.createElement("summary");
+  summary.textContent = "Opasitas";
+  const controls = document.createElement("div");
+  controls.className = "opacity-controls";
+  const range = document.createElement("input");
+  range.type = "range";
+  range.min = "0";
+  range.max = "100";
+  range.setAttribute("aria-label", `Opasitas ${name}`);
+  const value = document.createElement("output");
+
+  function applyOpacity() {
+    image.setOpacity(Number(range.value) / 100);
+    value.value = `${range.value}%`;
+    range.setAttribute("aria-valuetext", value.value);
+  }
+
+  function reset() {
+    range.value = "100";
+    applyOpacity();
+  }
+
+  range.addEventListener("input", applyOpacity);
+  reset();
+  controls.append(range, value);
+  details.append(summary, controls);
+  return {details, reset};
 }

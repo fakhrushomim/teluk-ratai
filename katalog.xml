@@ -1,0 +1,133 @@
+<?xml version='1.0' encoding='utf-8'?>
+<katalog judul="Galeri Peta Teluk Ratai">
+  <kelompok id="initial" judul="Peta awal">
+    <peta id="initial_01" nomor="Initial 1">
+      <judul>Kondisi Eksisting</judul>
+      <pratinjau>peta-initial_01.jpg</pratinjau>
+      <pdf>peta-initial_01.pdf</pdf>
+    </peta>
+    <peta id="initial_02" nomor="Initial 2">
+      <judul>Eksisting dan Masterplan</judul>
+      <pratinjau>peta-initial_02.jpg</pratinjau>
+      <pdf>peta-initial_02.pdf</pdf>
+    </peta>
+    <peta id="00" nomor="Peta 00">
+      <judul>Overlay Masterplan</judul>
+      <pratinjau>peta-00.jpg</pratinjau>
+      <pdf>peta-00.pdf</pdf>
+    </peta>
+  </kelompok>
+  <kelompok id="wilayah" judul="Peta dasar dan kondisi wilayah">
+    <peta id="01" nomor="Peta 01">
+      <judul>Basemap</judul>
+      <pratinjau>peta-01.jpg</pratinjau>
+      <pdf>peta-01.pdf</pdf>
+    </peta>
+    <peta id="02" nomor="Peta 02">
+      <judul>Basemap dan Kontur</judul>
+      <pratinjau>peta-02.jpg</pratinjau>
+      <pdf>peta-02.pdf</pdf>
+    </peta>
+    <peta id="03" nomor="Peta 03">
+      <judul>Kemiringan Lereng</judul>
+      <pratinjau>peta-03.jpg</pratinjau>
+      <pdf>peta-03.pdf</pdf>
+    </peta>
+    <peta id="04" nomor="Peta 04">
+      <judul>Tutupan Lahan</judul>
+      <pratinjau>peta-04.jpg</pratinjau>
+      <pdf>peta-04.pdf</pdf>
+    </peta>
+    <peta id="05" nomor="Peta 05">
+      <judul>Habitat dan Penggunaan Lahan</judul>
+      <pratinjau>peta-05.jpg</pratinjau>
+      <pdf>peta-05.pdf</pdf>
+    </peta>
+    <peta id="06" nomor="Peta 06">
+      <judul>Kondisi Eksisting Umum</judul>
+      <pratinjau>peta-06.jpg</pratinjau>
+      <pdf>peta-06.pdf</pdf>
+    </peta>
+    <peta id="07" nomor="Peta 07">
+      <judul>Hidrografi</judul>
+      <pratinjau>peta-07.jpg</pratinjau>
+      <pdf>peta-07.pdf</pdf>
+    </peta>
+  </kelompok>
+  <kelompok id="perubahan" judul="Perubahan lahan dan pesisir">
+    <peta id="08" nomor="Peta 08">
+      <judul>Dinamika Garis Pantai</judul>
+      <pratinjau>peta-08.jpg</pratinjau>
+      <pdf>peta-08.pdf</pdf>
+    </peta>
+    <peta id="08a" nomor="Peta 08A">
+      <judul>Tutupan Lahan 2020</judul>
+      <pratinjau>peta-08a.jpg</pratinjau>
+      <pdf>peta-08a.pdf</pdf>
+    </peta>
+    <peta id="08b" nomor="Peta 08B">
+      <judul>Tutupan Lahan 2024</judul>
+      <pratinjau>peta-08b.jpg</pratinjau>
+      <pdf>peta-08b.pdf</pdf>
+    </peta>
+    <peta id="08c" nomor="Peta 08C">
+      <judul>Transisi Tutupan Lahan 2020–2024</judul>
+      <pratinjau>peta-08c.jpg</pratinjau>
+      <pdf>peta-08c.pdf</pdf>
+    </peta>
+  </kelompok>
+  <kelompok id="geologi" judul="Geologi dan tanah">
+    <peta id="09a" nomor="Peta 09A">
+      <judul>Litologi Regional</judul>
+      <pratinjau>peta-09a.jpg</pratinjau>
+      <pdf>peta-09a.pdf</pdf>
+    </peta>
+    <peta id="09b" nomor="Peta 09B">
+      <judul>Kelompok Tanah WRB</judul>
+      <pratinjau>peta-09b.jpg</pratinjau>
+      <pdf>peta-09b.pdf</pdf>
+    </peta>
+    <peta id="09c" nomor="Peta 09C">
+      <judul>Kadar Liat 0 5 cm</judul>
+      <pratinjau>peta-09c.jpg</pratinjau>
+      <pdf>peta-09c.pdf</pdf>
+    </peta>
+    <peta id="09d" nomor="Peta 09D">
+      <judul>Vs30 Model Regional</judul>
+      <pratinjau>peta-09d.jpg</pratinjau>
+      <pdf>peta-09d.pdf</pdf>
+    </peta>
+    <peta id="09e" nomor="Peta 09E">
+      <judul>Sesar Kerak Dangkal</judul>
+      <pratinjau>peta-09e.jpg</pratinjau>
+      <pdf>peta-09e.pdf</pdf>
+    </peta>
+    <peta id="09f" nomor="Peta 09F">
+      <judul>PGA MCEG</judul>
+      <pratinjau>peta-09f.jpg</pratinjau>
+      <pdf>peta-09f.pdf</pdf>
+    </peta>
+  </kelompok>
+  <kelompok id="bahaya" judul="Bahaya regional">
+    <peta id="10a" nomor="Peta 10A">
+      <judul>Gelombang Ekstrem Abrasi</judul>
+      <pratinjau>peta-10a.jpg</pratinjau>
+      <pdf>peta-10a.pdf</pdf>
+    </peta>
+    <peta id="10b" nomor="Peta 10B">
+      <judul>Bahaya Tsunami</judul>
+      <pratinjau>peta-10b.jpg</pratinjau>
+      <pdf>peta-10b.pdf</pdf>
+    </peta>
+    <peta id="10c" nomor="Peta 10C">
+      <judul>Bahaya Tanah Longsor</judul>
+      <pratinjau>peta-10c.jpg</pratinjau>
+      <pdf>peta-10c.pdf</pdf>
+    </peta>
+    <peta id="10d" nomor="Peta 10D">
+      <judul>Bahaya Gempa Bumi</judul>
+      <pratinjau>peta-10d.jpg</pratinjau>
+      <pdf>peta-10d.pdf</pdf>
+    </peta>
+  </kelompok>
+</katalog>

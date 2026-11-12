@@ -69,7 +69,7 @@
       const input = document.querySelector("#kode");
       const error = document.querySelector("#akses-error");
       const button = form.querySelector("button");
-      const sessionKey = "teluk-ratai-akses-v1";
+      const sessionKey = "teluk-ratai-akses-v2";
 
       function loadScript(src, integrity) {
         return new Promise((resolve, reject) => {
@@ -108,7 +108,7 @@
         try {
           const digest = await crypto.subtle.digest("SHA-256", new TextEncoder().encode(input.value));
           const hex = Array.from(new Uint8Array(digest), byte => byte.toString(16).padStart(2, "0")).join("");
-          if (hex !== "e061cf296f0113efc2eb09656ee99fa8abd3873cb68b0e3459cf44c4a66d3f4b") {
+          if (hex !== "8fd4a1db3f5fa524791be0840f239bf880be47371a15479c1ecf8b041fe12818") {
             error.textContent = "Kode akses salah.";
             input.setAttribute("aria-invalid", "true");
             input.select();

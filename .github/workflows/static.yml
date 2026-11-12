@@ -22,7 +22,19 @@ jobs:
       - name: Siapkan berkas peta
         run: |
           mkdir -p site
-          cp index.html gaya.css peta.js katalog.js metadata.json layer-*.png site/
+          cp index.html gaya.css peta.js katalog.js metadata.json site/
+          python3 - <<'PY'
+          import json
+          from pathlib import Path
+          from shutil import copyfile
+          maps = json.loads(Path('metadata.json').read_text())['peta']
+          assets = {layer['aset'] for map_data in maps for layer in map_data['layer']}
+          for name in sorted(assets):
+              asset = Path(name)
+              if asset.name != name or not name.startswith('layer-') or asset.suffix not in {'.png', '.webp'}:
+                  raise ValueError(name)
+              copyfile(asset, Path('site') / asset.name)
+          PY
       - uses: actions/upload-pages-artifact@v3
         with:
           path: site

@@ -83,13 +83,7 @@ function tampilkanPeta() {
     updateCount();
     const ringkasan = document.createElement("p");
     ringkasan.textContent = `${peta.layer.length} layer · ${peta.crs_web} · ${peta.ukuran_px.join(" × ")} piksel per overlay`;
-    const details = document.createElement("details");
-    const summary = document.createElement("summary");
-    summary.textContent = "Metadata QGIS";
-    const pre = document.createElement("pre");
-    pre.textContent = JSON.stringify(peta.metadata_qgis, null, 2);
-    details.append(summary, pre);
-    metadata.replaceChildren(ringkasan, details);
+    metadata.replaceChildren(ringkasan);
     lihatSeluruhArea();
   }
 

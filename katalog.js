@@ -107,7 +107,7 @@ const katalogPeta = {
           "nama": "Tutupan lahan 2025 - IO/Esri/Microsoft",
           "jenis_sumber": "raster",
           "crs_asli": "EPSG:32748",
-          "aset": "layer-b5ae8a0eef149612e0c661e5.png",
+          "aset": "layer-c973320e791a209f6c9fbbd4.webp",
           "legenda": [
             {
               "label": "Air",
@@ -143,7 +143,7 @@ const katalogPeta = {
           "nama": "Sentinel-2 RGB 18 Oktober 2026",
           "jenis_sumber": "raster",
           "crs_asli": "EPSG:32748",
-          "aset": "layer-07f70ad35ae5552ea735b0e3.png",
+          "aset": "layer-03adb4d2b47fceee15cbeae7.webp",
           "legenda": []
         }
       ],
@@ -553,7 +553,7 @@ const katalogPeta = {
           "nama": "Tutupan lahan 2025 - IO/Esri/Microsoft",
           "jenis_sumber": "raster",
           "crs_asli": "EPSG:32748",
-          "aset": "layer-b5ae8a0eef149612e0c661e5.png",
+          "aset": "layer-c973320e791a209f6c9fbbd4.webp",
           "legenda": [
             {
               "label": "Air",
@@ -589,7 +589,7 @@ const katalogPeta = {
           "nama": "Sentinel-2 RGB 18 Oktober 2026",
           "jenis_sumber": "raster",
           "crs_asli": "EPSG:32748",
-          "aset": "layer-07f70ad35ae5552ea735b0e3.png",
+          "aset": "layer-03adb4d2b47fceee15cbeae7.webp",
           "legenda": []
         }
       ],
@@ -914,14 +914,14 @@ const katalogPeta = {
           "nama": "Masterplan di atas citra - slide 3",
           "jenis_sumber": "raster",
           "crs_asli": "EPSG:32748",
-          "aset": "layer-66822e0398f2e95496493c35.png",
+          "aset": "layer-ec07a35550bc87923d657eb6.webp",
           "legenda": []
         },
         {
           "nama": "Sentinel-2 RGB 2021",
           "jenis_sumber": "raster",
           "crs_asli": "EPSG:4326",
-          "aset": "layer-5cb970e2886bc5c53378a41f.png",
+          "aset": "layer-d5def27e42d0494e51bf4e56.webp",
           "legenda": []
         }
       ],
@@ -1109,7 +1109,7 @@ const katalogPeta = {
           "nama": "Sentinel-2 RGB 2021",
           "jenis_sumber": "raster",
           "crs_asli": "EPSG:4326",
-          "aset": "layer-5cb970e2886bc5c53378a41f.png",
+          "aset": "layer-d5def27e42d0494e51bf4e56.webp",
           "legenda": []
         }
       ],
@@ -1353,7 +1353,7 @@ const katalogPeta = {
           "nama": "Sentinel-2 RGB 2021",
           "jenis_sumber": "raster",
           "crs_asli": "EPSG:4326",
-          "aset": "layer-5cb970e2886bc5c53378a41f.png",
+          "aset": "layer-d5def27e42d0494e51bf4e56.webp",
           "legenda": []
         }
       ],
@@ -1624,7 +1624,7 @@ const katalogPeta = {
           "nama": "Hillshade multiarah",
           "jenis_sumber": "raster",
           "crs_asli": "EPSG:32748",
-          "aset": "layer-4123316dcaf1a8c8e38e51d5.png",
+          "aset": "layer-00515d2b6e7bb3bf55e89fd9.webp",
           "legenda": [
             {
               "label": "56",
@@ -1640,7 +1640,7 @@ const katalogPeta = {
           "nama": "Sentinel-2 RGB 2021",
           "jenis_sumber": "raster",
           "crs_asli": "EPSG:4326",
-          "aset": "layer-5cb970e2886bc5c53378a41f.png",
+          "aset": "layer-d5def27e42d0494e51bf4e56.webp",
           "legenda": []
         }
       ],
@@ -1896,7 +1896,7 @@ const katalogPeta = {
           "nama": "ESA WorldCover 2021 v200 - raster kelas",
           "jenis_sumber": "raster",
           "crs_asli": "EPSG:4326",
-          "aset": "layer-6d78f21bc4e30c13d200a358.png",
+          "aset": "layer-59b4246ad67c073e92ef53eb.webp",
           "legenda": [
             {
               "label": "Tutupan pohon",
@@ -1940,7 +1940,7 @@ const katalogPeta = {
           "nama": "Sentinel-2 RGB 2021",
           "jenis_sumber": "raster",
           "crs_asli": "EPSG:4326",
-          "aset": "layer-5cb970e2886bc5c53378a41f.png",
+          "aset": "layer-d5def27e42d0494e51bf4e56.webp",
           "legenda": []
         }
       ],
@@ -2276,7 +2276,7 @@ const katalogPeta = {
           "nama": "Sentinel-2 RGB 2021",
           "jenis_sumber": "raster",
           "crs_asli": "EPSG:4326",
-          "aset": "layer-5cb970e2886bc5c53378a41f.png",
+          "aset": "layer-d5def27e42d0494e51bf4e56.webp",
           "legenda": []
         }
       ],
@@ -2626,7 +2626,7 @@ const katalogPeta = {
           "nama": "Sentinel-2 RGB 2021",
           "jenis_sumber": "raster",
           "crs_asli": "EPSG:4326",
-          "aset": "layer-5cb970e2886bc5c53378a41f.png",
+          "aset": "layer-d5def27e42d0494e51bf4e56.webp",
           "legenda": []
         }
       ],
@@ -2997,7 +2997,7 @@ const katalogPeta = {
           "nama": "Sentinel-2 RGB 2021",
           "jenis_sumber": "raster",
           "crs_asli": "EPSG:4326",
-          "aset": "layer-5cb970e2886bc5c53378a41f.png",
+          "aset": "layer-d5def27e42d0494e51bf4e56.webp",
           "legenda": []
         }
       ],
@@ -3456,7 +3456,7 @@ const katalogPeta = {
           "nama": "Sentinel-2 RGB 2021",
           "jenis_sumber": "raster",
           "crs_asli": "EPSG:4326",
-          "aset": "layer-5cb970e2886bc5c53378a41f.png",
+          "aset": "layer-d5def27e42d0494e51bf4e56.webp",
           "legenda": []
         }
       ],
@@ -3713,7 +3713,7 @@ const katalogPeta = {
           "nama": "Tutupan Lahan 2020 — Impact Observatory",
           "jenis_sumber": "raster",
           "crs_asli": "EPSG:32748",
-          "aset": "layer-b8a5fabaeb3f0cfc29a15b3c.png",
+          "aset": "layer-296cf5373cc726d8b6dd4f4e.webp",
           "legenda": [
             {
               "label": "Air",
@@ -3753,7 +3753,7 @@ const katalogPeta = {
           "nama": "Sentinel-2 RGB 2021",
           "jenis_sumber": "raster",
           "crs_asli": "EPSG:4326",
-          "aset": "layer-5cb970e2886bc5c53378a41f.png",
+          "aset": "layer-d5def27e42d0494e51bf4e56.webp",
           "legenda": []
         }
       ],
@@ -4037,7 +4037,7 @@ const katalogPeta = {
           "nama": "Tutupan Lahan 2024 — Impact Observatory",
           "jenis_sumber": "raster",
           "crs_asli": "EPSG:32748",
-          "aset": "layer-580db51cbbbefb7072485a5c.png",
+          "aset": "layer-ba895c98fda145650d5c3212.webp",
           "legenda": [
             {
               "label": "Air",
@@ -4077,7 +4077,7 @@ const katalogPeta = {
           "nama": "Sentinel-2 RGB 2021",
           "jenis_sumber": "raster",
           "crs_asli": "EPSG:4326",
-          "aset": "layer-5cb970e2886bc5c53378a41f.png",
+          "aset": "layer-d5def27e42d0494e51bf4e56.webp",
           "legenda": []
         }
       ],
@@ -4393,7 +4393,7 @@ const katalogPeta = {
           "nama": "Sentinel-2 RGB 2021",
           "jenis_sumber": "raster",
           "crs_asli": "EPSG:4326",
-          "aset": "layer-5cb970e2886bc5c53378a41f.png",
+          "aset": "layer-d5def27e42d0494e51bf4e56.webp",
           "legenda": []
         }
       ],
@@ -4685,7 +4685,7 @@ const katalogPeta = {
           "nama": "Sentinel-2 RGB 2021",
           "jenis_sumber": "raster",
           "crs_asli": "EPSG:4326",
-          "aset": "layer-5cb970e2886bc5c53378a41f.png",
+          "aset": "layer-d5def27e42d0494e51bf4e56.webp",
           "legenda": []
         }
       ],
@@ -4982,7 +4982,7 @@ const katalogPeta = {
           "nama": "Sentinel-2 RGB 2021",
           "jenis_sumber": "raster",
           "crs_asli": "EPSG:4326",
-          "aset": "layer-5cb970e2886bc5c53378a41f.png",
+          "aset": "layer-d5def27e42d0494e51bf4e56.webp",
           "legenda": []
         }
       ],
@@ -5258,7 +5258,7 @@ const katalogPeta = {
           "nama": "Kadar Liat Permukaan 0–5 cm",
           "jenis_sumber": "raster",
           "crs_asli": "EPSG:4326",
-          "aset": "layer-4d2612fb2895ae4d8ce5ba3f.png",
+          "aset": "layer-956fd45d591ea11dc7cdb2dd.webp",
           "legenda": [
             {
               "label": "32.2%",
@@ -5278,7 +5278,7 @@ const katalogPeta = {
           "nama": "Sentinel-2 RGB 2021",
           "jenis_sumber": "raster",
           "crs_asli": "EPSG:4326",
-          "aset": "layer-5cb970e2886bc5c53378a41f.png",
+          "aset": "layer-d5def27e42d0494e51bf4e56.webp",
           "legenda": []
         }
       ],
@@ -5534,7 +5534,7 @@ const katalogPeta = {
           "nama": "Vs30 Model Regional",
           "jenis_sumber": "raster",
           "crs_asli": "EPSG:4326",
-          "aset": "layer-23658a3600fc2690b61a8c03.png",
+          "aset": "layer-51ba602346a9b10911d0f6b2.webp",
           "legenda": [
             {
               "label": "180 m/s",
@@ -5558,7 +5558,7 @@ const katalogPeta = {
           "nama": "Sentinel-2 RGB 2021",
           "jenis_sumber": "raster",
           "crs_asli": "EPSG:4326",
-          "aset": "layer-5cb970e2886bc5c53378a41f.png",
+          "aset": "layer-d5def27e42d0494e51bf4e56.webp",
           "legenda": []
         }
       ],
@@ -5835,7 +5835,7 @@ const katalogPeta = {
           "nama": "Sentinel-2 RGB 2021",
           "jenis_sumber": "raster",
           "crs_asli": "EPSG:4326",
-          "aset": "layer-5cb970e2886bc5c53378a41f.png",
+          "aset": "layer-d5def27e42d0494e51bf4e56.webp",
           "legenda": []
         }
       ],
@@ -6126,7 +6126,7 @@ const katalogPeta = {
           "nama": "PGA MCEG - interpolasi titik RSA 2021 (g)",
           "jenis_sumber": "raster",
           "crs_asli": "EPSG:4326",
-          "aset": "layer-7fb7df5fb97bfeec0adf8fd9.png",
+          "aset": "layer-8689a2d34aa49b3b45a9bc15.webp",
           "legenda": [
             {
               "label": "0.428",
@@ -6154,7 +6154,7 @@ const katalogPeta = {
           "nama": "Sentinel-2 RGB 2021",
           "jenis_sumber": "raster",
           "crs_asli": "EPSG:4326",
-          "aset": "layer-5cb970e2886bc5c53378a41f.png",
+          "aset": "layer-d5def27e42d0494e51bf4e56.webp",
           "legenda": []
         }
       ],
@@ -6442,7 +6442,7 @@ const katalogPeta = {
           "nama": "Gelombang Ekstrem dan Abrasi — indeks 0–1",
           "jenis_sumber": "raster",
           "crs_asli": "EPSG:3395",
-          "aset": "layer-50e7202ac15002d0603423fa.png",
+          "aset": "layer-771df367c4f0366915535374.webp",
           "legenda": [
             {
               "label": "Rendah",
@@ -6462,7 +6462,7 @@ const katalogPeta = {
           "nama": "Sentinel-2 RGB 2021",
           "jenis_sumber": "raster",
           "crs_asli": "EPSG:4326",
-          "aset": "layer-5cb970e2886bc5c53378a41f.png",
+          "aset": "layer-d5def27e42d0494e51bf4e56.webp",
           "legenda": []
         }
       ],
@@ -6745,7 +6745,7 @@ const katalogPeta = {
           "nama": "Bahaya Tsunami — indeks 0–1",
           "jenis_sumber": "raster",
           "crs_asli": "EPSG:3395",
-          "aset": "layer-99d35abbff2e11265c53bd66.png",
+          "aset": "layer-46dcfb322242757f37d0ff77.webp",
           "legenda": [
             {
               "label": "Rendah",
@@ -6765,7 +6765,7 @@ const katalogPeta = {
           "nama": "Sentinel-2 RGB 2021",
           "jenis_sumber": "raster",
           "crs_asli": "EPSG:4326",
-          "aset": "layer-5cb970e2886bc5c53378a41f.png",
+          "aset": "layer-d5def27e42d0494e51bf4e56.webp",
           "legenda": []
         }
       ],
@@ -7048,7 +7048,7 @@ const katalogPeta = {
           "nama": "Bahaya Tanah Longsor — indeks 0–1",
           "jenis_sumber": "raster",
           "crs_asli": "EPSG:3395",
-          "aset": "layer-9fd97bb2209ecfffdf7fcc3b.png",
+          "aset": "layer-db6397086c3f71f2ac5d2d8a.webp",
           "legenda": [
             {
               "label": "Rendah",
@@ -7068,7 +7068,7 @@ const katalogPeta = {
           "nama": "Sentinel-2 RGB 2021",
           "jenis_sumber": "raster",
           "crs_asli": "EPSG:4326",
-          "aset": "layer-5cb970e2886bc5c53378a41f.png",
+          "aset": "layer-d5def27e42d0494e51bf4e56.webp",
           "legenda": []
         }
       ],
@@ -7351,7 +7351,7 @@ const katalogPeta = {
           "nama": "Bahaya Gempa Bumi — indeks 0–1",
           "jenis_sumber": "raster",
           "crs_asli": "EPSG:3395",
-          "aset": "layer-7ac3d283f9fbb4e82c3318a2.png",
+          "aset": "layer-06457c6eb0478b899ac37571.webp",
           "legenda": [
             {
               "label": "Rendah",
@@ -7371,7 +7371,7 @@ const katalogPeta = {
           "nama": "Sentinel-2 RGB 2021",
           "jenis_sumber": "raster",
           "crs_asli": "EPSG:4326",
-          "aset": "layer-5cb970e2886bc5c53378a41f.png",
+          "aset": "layer-d5def27e42d0494e51bf4e56.webp",
           "legenda": []
         }
       ],
@@ -7570,14 +7570,14 @@ const katalogPeta = {
           "nama": "Detect Change - gambar berkoordinat",
           "jenis_sumber": "raster",
           "crs_asli": "EPSG:32748",
-          "aset": "layer-4554952173be7368210ba298.png",
+          "aset": "layer-89d1783b6cf86f2e92667306.webp",
           "legenda": []
         },
         {
           "nama": "Sentinel-2 18 Oktober 2026",
           "jenis_sumber": "raster",
           "crs_asli": "EPSG:32748",
-          "aset": "layer-344244a9f200e1250ad0592a.png",
+          "aset": "layer-4c7519be088c9a6bf3857f03.webp",
           "legenda": []
         }
       ],

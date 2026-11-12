@@ -1,9 +1,9 @@
 "use strict";
 
-const status = document.querySelector("#status");
+const mapStatus = document.querySelector("#status");
 
 if (typeof L === "undefined") {
-  status.textContent = "Pustaka peta gagal dimuat. Periksa sambungan internet, lalu muat ulang.";
+  mapStatus.textContent = "Pustaka peta gagal dimuat. Periksa sambungan internet, lalu muat ulang.";
 } else {
   tampilkanPeta();
 }
@@ -12,6 +12,9 @@ function tampilkanPeta() {
   const pilihan = document.querySelector("#pilihan");
   const daftarLayer = document.querySelector("#layer");
   const metadata = document.querySelector("#metadata");
+  const title = document.querySelector("#judul-peta");
+  const note = document.querySelector("#catatan");
+  const count = document.querySelector("#jumlah");
   const map = L.map("peta", {zoomSnap: 0.25, maxZoom: 19});
   L.control.scale({imperial: false}).addTo(map);
   const overlay = L.layerGroup().addTo(map);
@@ -26,20 +29,33 @@ function tampilkanPeta() {
     map.fitBounds(bounds, {padding: [15, 15]});
   }
 
+  function updateCount() {
+    const shown = aktif.filter(({input}) => input.checked).length;
+    count.textContent = `${shown}/${aktif.length}`;
+    count.setAttribute("aria-label", `${shown} dari ${aktif.length} layer aktif`);
+  }
+
   function pilihPeta() {
     const peta = katalogPeta.peta[Number(pilihan.value)];
     overlay.clearLayers();
     daftarLayer.replaceChildren();
-    status.textContent = "";
+    mapStatus.textContent = "";
     bounds = L.latLngBounds(peta.batas);
+    title.textContent = peta.judul;
+    const source = peta.metadata_qgis[0];
+    note.textContent = source.batasan || "";
+    note.hidden = !note.textContent;
 
     aktif = peta.layer.map((layer, index) => {
       const image = L.imageOverlay(layer.aset, bounds, {
         alt: "",
         zIndex: peta.layer.length - index,
+        attribution: layer.nama.includes("Detect Change") && source.sumber === "Google Earth Detect Change"
+          ? "Google Earth Detect Change"
+          : (/OSM|OpenStreetMap/i.test(layer.nama) ? "© OpenStreetMap contributors" : undefined),
       });
       image.on("error", () => {
-        if (overlay.hasLayer(image)) status.textContent = `Gagal memuat layer ${layer.nama}.`;
+        if (overlay.hasLayer(image)) mapStatus.textContent = `Gagal memuat layer ${layer.nama}.`;
       });
       const baris = document.createElement("div");
       baris.className = "layer-row";
@@ -50,6 +66,7 @@ function tampilkanPeta() {
       input.addEventListener("change", () => {
         if (input.checked) overlay.addLayer(image);
         else overlay.removeLayer(image);
+        updateCount();
       });
       label.append(input);
       if (layer.legenda.length === 1) label.append(swatch(layer.legenda[0].warna));
@@ -61,6 +78,7 @@ function tampilkanPeta() {
       return {input, image};
     });
 
+    updateCount();
     const ringkasan = document.createElement("p");
     ringkasan.textContent = `${peta.layer.length} layer · ${peta.crs_web} · ${peta.ukuran_px.join(" × ")} piksel per overlay`;
     const details = document.createElement("details");
@@ -79,6 +97,7 @@ function tampilkanPeta() {
       input.checked = true;
       overlay.addLayer(image);
     }
+    updateCount();
   });
   document.querySelector("#cakupan").addEventListener("click", cakupanAwal);
   pilihPeta();

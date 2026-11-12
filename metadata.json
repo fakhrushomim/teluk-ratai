@@ -7522,6 +7522,113 @@
           "catatan": "Vektor masterplan merupakan digitasi indikatif dari gambar. Kontur batimetri tidak berisi nilai kedalaman."
         }
       ]
+    },
+    {
+      "id": "11_detect_change_teluk_ratai",
+      "judul": "Peta 11 Detect Change Teluk Ratai",
+      "batas": [
+        [
+          -5.676865350642188,
+          105.13914709008702
+        ],
+        [
+          -5.541128871656417,
+          105.25886679361138
+        ]
+      ],
+      "crs_web": "EPSG:3857",
+      "ukuran_px": [
+        1580,
+        1800
+      ],
+      "layer": [
+        {
+          "nama": "Cakupan KML",
+          "jenis_sumber": "vektor",
+          "crs_asli": "EPSG:4326",
+          "aset": "layer-762225fac5c18b0fd768a5be.png",
+          "legenda": [
+            {
+              "label": "Cakupan KML",
+              "warna": "#0000ff"
+            }
+          ]
+        },
+        {
+          "nama": "Garis pantai OSM",
+          "jenis_sumber": "vektor",
+          "crs_asli": "EPSG:4326",
+          "aset": "layer-6b67b6f52356bb78c6292262.png",
+          "legenda": [
+            {
+              "label": "Garis pantai OSM",
+              "warna": "#6ad9df"
+            }
+          ]
+        },
+        {
+          "nama": "Detect Change - gambar berkoordinat",
+          "jenis_sumber": "raster",
+          "crs_asli": "EPSG:32748",
+          "aset": "layer-4554952173be7368210ba298.png",
+          "legenda": []
+        },
+        {
+          "nama": "Sentinel-2 18 Oktober 2026",
+          "jenis_sumber": "raster",
+          "crs_asli": "EPSG:32748",
+          "aset": "layer-344244a9f200e1250ad0592a.png",
+          "legenda": []
+        }
+      ],
+      "metadata_qgis": [
+        {
+          "sumber": "Google Earth Detect Change",
+          "tahun_pembanding": [
+            2017,
+            2023
+          ],
+          "format": "RGB georeferensi indikatif",
+          "metode": "Thin plate spline 4 sudut, potong mengikuti KML, nearest neighbor",
+          "koordinat_wgs84": [
+            [
+              105.1403947269025,
+              -5.65465522362705
+            ],
+            [
+              105.2549063512374,
+              -5.661746108146753
+            ],
+            [
+              105.2569997372156,
+              -5.55762871261268
+            ],
+            [
+              105.1407905118797,
+              -5.555823588412324
+            ]
+          ],
+          "piksel_referensi_1853x1344": [
+            [
+              391,
+              1059
+            ],
+            [
+              1443,
+              1117
+            ],
+            [
+              1461,
+              161
+            ],
+            [
+              395,
+              142
+            ]
+          ],
+          "batasan": "Posisi indikatif. Kanal RGB tidak mengandung skor perubahan numerik. Gunakan untuk interpretasi visual, tanpa perhitungan luas perubahan."
+        }
+      ]
     }
   ]
 }

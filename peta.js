@@ -61,8 +61,17 @@ function tampilkanPeta() {
       if (reused) {
         image.setZIndex(peta.layer.length - index);
       } else {
+        let retried = false;
         image.on("error", () => {
-          if (overlay.hasLayer(image)) mapStatus.textContent = `Gagal memuat layer ${layer.nama}.`;
+          if (!overlay.hasLayer(image)) return;
+          if (retried) {
+            mapStatus.textContent = `Gagal memuat layer ${layer.nama}.`;
+            return;
+          }
+          retried = true;
+          setTimeout(() => {
+            if (overlay.hasLayer(image)) image.setUrl(`${layer.aset}?retry=1`);
+          }, 350);
         });
       }
       const baris = document.createElement("div");

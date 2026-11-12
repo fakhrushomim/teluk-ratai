@@ -20,7 +20,6 @@ header {
   border-bottom: 1px solid var(--line);
 }
 h1 { font-size: clamp(1.45rem, 3vw, 1.8rem); letter-spacing: -.045em; margin: 0; }
-header a { color: var(--accent); font-size: .82rem; font-weight: 650; text-underline-offset: .25em; }
 main {
   display: grid;
   grid-template-columns: minmax(17.5rem, 21rem) minmax(0, 1fr);
@@ -70,7 +69,9 @@ button:hover { background: #e9f3ee; }
   line-height: 1.45;
 }
 .section-title, .map-bar { display: flex; align-items: center; justify-content: space-between; gap: .5rem; }
-.section-title { margin-bottom: .4rem; }
+.section-title { margin-bottom: .4rem; flex-wrap: wrap; }
+.layer-actions { display: flex; flex-wrap: wrap; gap: .3rem; }
+.layer-actions button { font-size: .72rem; padding: .32rem .45rem; }
 .section-title h2 { display: flex; align-items: center; gap: .5rem; margin: .5rem 0; }
 #jumlah { color: var(--ink-soft); font-size: .75rem; font-weight: 500; font-variant-numeric: tabular-nums; }
 .layer-row { border-top: 1px solid #e7eeea; }
@@ -107,3 +108,8 @@ aside > details { margin-top: .75rem; padding-top: .7rem; border-top: 1px solid 
   .map-bar { padding: .55rem .65rem; }
   aside { padding: .75rem; }
 }
+
+.opacity { margin-left: 1.65rem; padding-bottom: .4rem; font-size: .78rem; color: var(--ink-soft); }
+.opacity-controls { display: flex; align-items: center; gap: .5rem; padding-top: .35rem; }
+.opacity-controls input { min-width: 0; width: 100%; accent-color: var(--accent); }
+.opacity-controls output { min-width: 3em; text-align: right; font-variant-numeric: tabular-nums; }
